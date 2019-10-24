@@ -1,0 +1,52 @@
+@import '~common/styles/variables';
+.PurchaseSlipsTable {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  margin-top: -5px;
+  td, th {
+    text-align: left;
+  }
+  @media (max-width: 1024px) {
+    font-size: 0.9rem;
+  }
+  thead {
+    th {
+      border: 0;
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 17px;
+      letter-spacing: 0.1px;
+      color: #1F2B3D;
+      border: 0;
+      box-shadow: 0;
+      &.amount {
+        width: 35%;
+        padding: 0.75rem 18% 0.75rem 0.8rem;
+        text-align: right; 
+      }
+    }
+  }
+  tbody {
+    tr {
+      height: 37px;
+      box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
+      td {
+        background-color: #FFFFFF;
+        border-radius: 2px;
+        border: 0;
+        color: #1F2B3E;
+        &.amount {
+          padding: 0.75rem 18% 0.75rem 0.8rem;
+          text-align: right; 
+        }
+      }
+    }
+  }
+}
+
+.PDFLink {
+  cursor: pointer;
+  background: url($path-images +"myFiles/download_icon-blue.svg") no-repeat left;
+  background-size: 23px 23px; 
+  height: 24px;
+}

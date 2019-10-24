@@ -1,0 +1,55 @@
+.MyPurchaseSlips {
+  .TopBar {
+    display: flex;
+    width: 100%;
+    align-content: right; 
+    // justify-content: space-between;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  .PurchaseSlipsTable {
+    height: calc(100vh - 360px);
+    overflow: auto;
+    margin-bottom: 20px;
+  }
+  .PaginationContainer {
+    display: flex;
+    justify-content: flex-end;
+    ul {
+      &:global(.pagination) {
+        margin: 0;
+        li {
+          margin: 0 4px;
+          &:global(.active) {
+            background-color: #5696FF;
+            border-radius: 2px;
+            a {
+              color: #fff;
+            }
+          }
+          &:last-child, &:first-child {
+            display: none;
+          }
+          &:nth-last-child(2), &:nth-child(2) {
+            border: 1px solid #8C929C;
+            border-radius: 2px;
+          }
+          a {
+            color: #8C929C;
+            padding: 3px 11px;
+          }
+        }
+      }
+    }
+    .PageInfo {
+      color: #8C929C;
+      font-size: 12px;
+      letter-spacing: 0.26px;
+      background-color: transparent;
+      padding: 4px 20px;
+      border-left: 1px solid #8C929C;
+      border-right: 1px solid #8C929C;
+      margin-right: 12px;
+    }
+  }
+}

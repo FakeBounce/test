@@ -1,0 +1,19 @@
+.DownloadButton {
+  background: url("assets/images/download_white_icon.png") no-repeat center #5696FF;
+  background-size: 45px 45px;
+  width: 60px;
+  height: 100%;
+  border: 0;
+  border-radius: 2px;
+  &:hover {
+    background-color: #5696FF;
+  }
+  &:global(.btn.btn-secondary) {
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: #5696FF;
+      box-shadow: none !important;
+    }
+  }
+}

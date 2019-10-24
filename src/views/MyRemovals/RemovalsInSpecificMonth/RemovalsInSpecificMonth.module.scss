@@ -1,0 +1,112 @@
+.DataBoxes {
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 25px;
+  .DataBox {
+    height: 80px;
+    background-color: #A2C613;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+    width: 140px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    > h3 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #fff;
+      margin: 0;
+      text-align: left;
+    }
+    > span {
+      font-size: 14px;
+      color: #fff;
+      text-align: left;
+    }
+  }
+}
+
+.TableContainer {
+  margin-top: 20px;
+  height: calc(100vh - 360px);
+  overflow: auto;
+  @media (max-width: 1024px) {
+    font-size: 0.8rem;
+  }
+  .RemovalsTable {
+    margin-bottom: 0;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    margin-top: -5px;
+    td, th {
+      text-align: left;
+    }
+    thead {
+      th {
+        border: 0;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0.09px;
+        color: #1F2B3D;
+        box-shadow: none;
+      }
+    }
+    tbody {
+      tr {
+        height: 37px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+        td {
+          background-color: #FFFFFF;
+          border-radius: 2px;
+          border: 0;
+          color: #1F2B3E;
+        }
+      }
+    }
+  }
+}
+
+.PaginationContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  ul {
+    &:global(.pagination) {
+      margin: 0;
+      li {
+        margin: 0 4px;
+        &:global(.active) {
+          background-color: #5696FF;
+          border-radius: 2px;
+          a {
+            color: #fff;
+          }
+        }
+        &:last-child, &:first-child {
+          display: none;
+        }
+        &:nth-last-child(2), &:nth-child(2) {
+          border: 1px solid #8C929C;
+          border-radius: 2px;
+        }
+        a {
+          color: #8C929C;
+          padding: 3px 11px;
+        }
+      }
+    }
+  }
+  .PageInfo {
+    color: #8C929C;
+    font-size: 12px;
+    letter-spacing: 0.26px;
+    background-color: transparent;
+    padding: 4px 20px;
+    border-left: 1px solid #8C929C;
+    border-right: 1px solid #8C929C;
+    margin-right: 12px;
+  }
+}

@@ -1,0 +1,12 @@
+@import '~common/styles/variables';
+.ContentContainer {
+  margin-left: $metrics-regular;
+  padding-left: $metrics-xsmall;
+  padding-right: $metrics-xsmall;
+  padding-top: $metrics-xsmall;
+  padding-bottom: $metrics-xsmall;
+  overflow: hidden;
+  height: calc(100vh - #{$metrics-regular});
+  //background-color: #FAFAFB;
+  background-color: #F4F4F7;
+}

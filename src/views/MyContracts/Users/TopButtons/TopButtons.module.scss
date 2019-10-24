@@ -1,0 +1,30 @@
+.ButtonsBox {
+  display: flex;
+  > button {
+    border-radius: 2px;
+    background-color: #5696FF;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    min-height: 50px;
+    border: 10px;
+    margin-right: 5px;
+    &:global(.btn.btn-secondary) {
+      &:hover, &:active, &:focus {
+        background-color: #5696FF;
+        box-shadow: none;
+      }
+    }
+  }
+  .AddUser {
+    background: url("assets/images/add_user_icon.png") no-repeat center #5696FF;
+    background-size: 23px 25px;
+    width: 60px;
+    &:global(.btn.btn-secondary) {
+      &:hover, &:active, &:focus {
+        background-color: #5696FF;
+        box-shadow: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,1388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ContentTable component renders as expected with parameters 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ContentTable
+    dataToShow={
+        Array [
+            Object {
+              "amount": 35,
+              "date": 1995-12-17T02:24:00.000Z,
+              "reference": "oui",
+            },
+            Object {
+              "amount": 53,
+              "date": 1995-12-18T02:24:00.000Z,
+              "reference": "non",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <thead>
+          <tr>
+                    <th>
+                              N° BA
+                    </th>
+                    <th>
+                              Date
+                    </th>
+                    <th
+                              className={undefined}
+                    >
+                              Montant
+                    </th>
+                    <th>
+                              PDF
+                    </th>
+          </tr>
+</thead>,
+        <tbody>
+          <tr>
+                    <td>
+                              oui
+                    </td>
+                    <td>
+                              17/12/1995
+                    </td>
+                    <td
+                              className={undefined}
+                    >
+                              <CurrencyFormat
+                                        allowNegative={true}
+                                        decimalScale={2}
+                                        decimalSeparator="."
+                                        displayType="text"
+                                        fixedDecimalScale={false}
+                                        isAllowed={[Function]}
+                                        isNumericString={false}
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onMouseUp={[Function]}
+                                        onValueChange={[Function]}
+                                        prefix=""
+                                        suffix=" €"
+                                        thousandSeparator=" "
+                                        thousandSpacing="3"
+                                        type="text"
+                                        value={35}
+                              />
+                    </td>
+                    <td>
+                              <Unknown>
+                                        [Function]
+                              </Unknown>
+                    </td>
+          </tr>
+          <tr>
+                    <td>
+                              non
+                    </td>
+                    <td>
+                              18/12/1995
+                    </td>
+                    <td
+                              className={undefined}
+                    >
+                              <CurrencyFormat
+                                        allowNegative={true}
+                                        decimalScale={2}
+                                        decimalSeparator="."
+                                        displayType="text"
+                                        fixedDecimalScale={false}
+                                        isAllowed={[Function]}
+                                        isNumericString={false}
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onMouseUp={[Function]}
+                                        onValueChange={[Function]}
+                                        prefix=""
+                                        suffix=" €"
+                                        thousandSeparator=" "
+                                        thousandSpacing="3"
+                                        type="text"
+                                        value={53}
+                              />
+                    </td>
+                    <td>
+                              <Unknown>
+                                        [Function]
+                              </Unknown>
+                    </td>
+          </tr>
+</tbody>,
+      ],
+      "className": undefined,
+      "responsiveTag": "div",
+      "tag": "table",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th>
+                        N° BA
+            </th>
+            <th>
+                        Date
+            </th>
+            <th
+                        className={undefined}
+            >
+                        Montant
+            </th>
+            <th>
+                        PDF
+            </th>
+</tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <th>
+                N° BA
+</th>,
+              <th>
+                Date
+</th>,
+              <th
+                className={undefined}
+>
+                Montant
+</th>,
+              <th>
+                PDF
+</th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "N° BA",
+              },
+              "ref": null,
+              "rendered": "N° BA",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Date",
+              },
+              "ref": null,
+              "rendered": "Date",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Montant",
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": "Montant",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "PDF",
+              },
+              "ref": null,
+              "rendered": "PDF",
+              "type": "th",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <tr>
+              <td>
+                            oui
+              </td>
+              <td>
+                            17/12/1995
+              </td>
+              <td
+                            className={undefined}
+              >
+                            <CurrencyFormat
+                                          allowNegative={true}
+                                          decimalScale={2}
+                                          decimalSeparator="."
+                                          displayType="text"
+                                          fixedDecimalScale={false}
+                                          isAllowed={[Function]}
+                                          isNumericString={false}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          onMouseUp={[Function]}
+                                          onValueChange={[Function]}
+                                          prefix=""
+                                          suffix=" €"
+                                          thousandSeparator=" "
+                                          thousandSpacing="3"
+                                          type="text"
+                                          value={35}
+                            />
+              </td>
+              <td>
+                            <Unknown>
+                                          [Function]
+                            </Unknown>
+              </td>
+</tr>,
+            <tr>
+              <td>
+                            non
+              </td>
+              <td>
+                            18/12/1995
+              </td>
+              <td
+                            className={undefined}
+              >
+                            <CurrencyFormat
+                                          allowNegative={true}
+                                          decimalScale={2}
+                                          decimalSeparator="."
+                                          displayType="text"
+                                          fixedDecimalScale={false}
+                                          isAllowed={[Function]}
+                                          isNumericString={false}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          onKeyDown={[Function]}
+                                          onMouseUp={[Function]}
+                                          onValueChange={[Function]}
+                                          prefix=""
+                                          suffix=" €"
+                                          thousandSeparator=" "
+                                          thousandSpacing="3"
+                                          type="text"
+                                          value={53}
+                            />
+              </td>
+              <td>
+                            <Unknown>
+                                          [Function]
+                            </Unknown>
+              </td>
+</tr>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  oui
+</td>,
+                <td>
+                  17/12/1995
+</td>,
+                <td
+                  className={undefined}
+>
+                  <CurrencyFormat
+                                    allowNegative={true}
+                                    decimalScale={2}
+                                    decimalSeparator="."
+                                    displayType="text"
+                                    fixedDecimalScale={false}
+                                    isAllowed={[Function]}
+                                    isNumericString={false}
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onMouseUp={[Function]}
+                                    onValueChange={[Function]}
+                                    prefix=""
+                                    suffix=" €"
+                                    thousandSeparator=" "
+                                    thousandSpacing="3"
+                                    type="text"
+                                    value={35}
+                  />
+</td>,
+                <td>
+                  <Unknown>
+                                    [Function]
+                  </Unknown>
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "oui",
+                },
+                "ref": null,
+                "rendered": "oui",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "17/12/1995",
+                },
+                "ref": null,
+                "rendered": "17/12/1995",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <CurrencyFormat
+                    allowNegative={true}
+                    decimalScale={2}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={false}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix=""
+                    suffix=" €"
+                    thousandSeparator=" "
+                    thousandSpacing="3"
+                    type="text"
+                    value={35}
+/>,
+                  "className": undefined,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "allowNegative": true,
+                    "decimalScale": 2,
+                    "decimalSeparator": ".",
+                    "displayType": "text",
+                    "fixedDecimalScale": false,
+                    "isAllowed": [Function],
+                    "isNumericString": false,
+                    "onBlur": [Function],
+                    "onChange": [Function],
+                    "onFocus": [Function],
+                    "onKeyDown": [Function],
+                    "onMouseUp": [Function],
+                    "onValueChange": [Function],
+                    "prefix": "",
+                    "suffix": " €",
+                    "thousandSeparator": " ",
+                    "thousandSpacing": "3",
+                    "type": "text",
+                    "value": 35,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Unknown>
+                    [Function]
+</Unknown>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": [Function],
+                  },
+                  "ref": null,
+                  "rendered": [Function],
+                  "type": Object {
+                    "$$typeof": Symbol(react.context),
+                    "_calculateChangedBits": null,
+                    "_context": Object {
+                      "$$typeof": Symbol(react.context),
+                      "Consumer": [Circular],
+                      "Provider": Object {
+                        "$$typeof": Symbol(react.provider),
+                        "_context": [Circular],
+                      },
+                      "_calculateChangedBits": null,
+                      "_currentRenderer": null,
+                      "_currentRenderer2": null,
+                      "_currentValue": undefined,
+                      "_currentValue2": undefined,
+                      "_threadCount": 0,
+                    },
+                  },
+                },
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  non
+</td>,
+                <td>
+                  18/12/1995
+</td>,
+                <td
+                  className={undefined}
+>
+                  <CurrencyFormat
+                                    allowNegative={true}
+                                    decimalScale={2}
+                                    decimalSeparator="."
+                                    displayType="text"
+                                    fixedDecimalScale={false}
+                                    isAllowed={[Function]}
+                                    isNumericString={false}
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onMouseUp={[Function]}
+                                    onValueChange={[Function]}
+                                    prefix=""
+                                    suffix=" €"
+                                    thousandSeparator=" "
+                                    thousandSpacing="3"
+                                    type="text"
+                                    value={53}
+                  />
+</td>,
+                <td>
+                  <Unknown>
+                                    [Function]
+                  </Unknown>
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "non",
+                },
+                "ref": null,
+                "rendered": "non",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "18/12/1995",
+                },
+                "ref": null,
+                "rendered": "18/12/1995",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <CurrencyFormat
+                    allowNegative={true}
+                    decimalScale={2}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={false}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix=""
+                    suffix=" €"
+                    thousandSeparator=" "
+                    thousandSpacing="3"
+                    type="text"
+                    value={53}
+/>,
+                  "className": undefined,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "allowNegative": true,
+                    "decimalScale": 2,
+                    "decimalSeparator": ".",
+                    "displayType": "text",
+                    "fixedDecimalScale": false,
+                    "isAllowed": [Function],
+                    "isNumericString": false,
+                    "onBlur": [Function],
+                    "onChange": [Function],
+                    "onFocus": [Function],
+                    "onKeyDown": [Function],
+                    "onMouseUp": [Function],
+                    "onValueChange": [Function],
+                    "prefix": "",
+                    "suffix": " €",
+                    "thousandSeparator": " ",
+                    "thousandSpacing": "3",
+                    "type": "text",
+                    "value": 53,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Unknown>
+                    [Function]
+</Unknown>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": [Function],
+                  },
+                  "ref": null,
+                  "rendered": [Function],
+                  "type": Object {
+                    "$$typeof": Symbol(react.context),
+                    "_calculateChangedBits": null,
+                    "_context": Object {
+                      "$$typeof": Symbol(react.context),
+                      "Consumer": [Circular],
+                      "Provider": Object {
+                        "$$typeof": Symbol(react.provider),
+                        "_context": [Circular],
+                      },
+                      "_calculateChangedBits": null,
+                      "_currentRenderer": null,
+                      "_currentRenderer2": null,
+                      "_currentValue": undefined,
+                      "_currentValue2": undefined,
+                      "_threadCount": 0,
+                    },
+                  },
+                },
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+        ],
+        "type": "tbody",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <thead>
+            <tr>
+                        <th>
+                                    N° BA
+                        </th>
+                        <th>
+                                    Date
+                        </th>
+                        <th
+                                    className={undefined}
+                        >
+                                    Montant
+                        </th>
+                        <th>
+                                    PDF
+                        </th>
+            </tr>
+</thead>,
+          <tbody>
+            <tr>
+                        <td>
+                                    oui
+                        </td>
+                        <td>
+                                    17/12/1995
+                        </td>
+                        <td
+                                    className={undefined}
+                        >
+                                    <CurrencyFormat
+                                                allowNegative={true}
+                                                decimalScale={2}
+                                                decimalSeparator="."
+                                                displayType="text"
+                                                fixedDecimalScale={false}
+                                                isAllowed={[Function]}
+                                                isNumericString={false}
+                                                onBlur={[Function]}
+                                                onChange={[Function]}
+                                                onFocus={[Function]}
+                                                onKeyDown={[Function]}
+                                                onMouseUp={[Function]}
+                                                onValueChange={[Function]}
+                                                prefix=""
+                                                suffix=" €"
+                                                thousandSeparator=" "
+                                                thousandSpacing="3"
+                                                type="text"
+                                                value={35}
+                                    />
+                        </td>
+                        <td>
+                                    <Unknown>
+                                                [Function]
+                                    </Unknown>
+                        </td>
+            </tr>
+            <tr>
+                        <td>
+                                    non
+                        </td>
+                        <td>
+                                    18/12/1995
+                        </td>
+                        <td
+                                    className={undefined}
+                        >
+                                    <CurrencyFormat
+                                                allowNegative={true}
+                                                decimalScale={2}
+                                                decimalSeparator="."
+                                                displayType="text"
+                                                fixedDecimalScale={false}
+                                                isAllowed={[Function]}
+                                                isNumericString={false}
+                                                onBlur={[Function]}
+                                                onChange={[Function]}
+                                                onFocus={[Function]}
+                                                onKeyDown={[Function]}
+                                                onMouseUp={[Function]}
+                                                onValueChange={[Function]}
+                                                prefix=""
+                                                suffix=" €"
+                                                thousandSeparator=" "
+                                                thousandSpacing="3"
+                                                type="text"
+                                                value={53}
+                                    />
+                        </td>
+                        <td>
+                                    <Unknown>
+                                                [Function]
+                                    </Unknown>
+                        </td>
+            </tr>
+</tbody>,
+        ],
+        "className": undefined,
+        "responsiveTag": "div",
+        "tag": "table",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th>
+                            N° BA
+              </th>
+              <th>
+                            Date
+              </th>
+              <th
+                            className={undefined}
+              >
+                            Montant
+              </th>
+              <th>
+                            PDF
+              </th>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th>
+                  N° BA
+</th>,
+                <th>
+                  Date
+</th>,
+                <th
+                  className={undefined}
+>
+                  Montant
+</th>,
+                <th>
+                  PDF
+</th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "N° BA",
+                },
+                "ref": null,
+                "rendered": "N° BA",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Date",
+                },
+                "ref": null,
+                "rendered": "Date",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Montant",
+                  "className": undefined,
+                },
+                "ref": null,
+                "rendered": "Montant",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "PDF",
+                },
+                "ref": null,
+                "rendered": "PDF",
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <tr>
+                <td>
+                                oui
+                </td>
+                <td>
+                                17/12/1995
+                </td>
+                <td
+                                className={undefined}
+                >
+                                <CurrencyFormat
+                                                allowNegative={true}
+                                                decimalScale={2}
+                                                decimalSeparator="."
+                                                displayType="text"
+                                                fixedDecimalScale={false}
+                                                isAllowed={[Function]}
+                                                isNumericString={false}
+                                                onBlur={[Function]}
+                                                onChange={[Function]}
+                                                onFocus={[Function]}
+                                                onKeyDown={[Function]}
+                                                onMouseUp={[Function]}
+                                                onValueChange={[Function]}
+                                                prefix=""
+                                                suffix=" €"
+                                                thousandSeparator=" "
+                                                thousandSpacing="3"
+                                                type="text"
+                                                value={35}
+                                />
+                </td>
+                <td>
+                                <Unknown>
+                                                [Function]
+                                </Unknown>
+                </td>
+</tr>,
+              <tr>
+                <td>
+                                non
+                </td>
+                <td>
+                                18/12/1995
+                </td>
+                <td
+                                className={undefined}
+                >
+                                <CurrencyFormat
+                                                allowNegative={true}
+                                                decimalScale={2}
+                                                decimalSeparator="."
+                                                displayType="text"
+                                                fixedDecimalScale={false}
+                                                isAllowed={[Function]}
+                                                isNumericString={false}
+                                                onBlur={[Function]}
+                                                onChange={[Function]}
+                                                onFocus={[Function]}
+                                                onKeyDown={[Function]}
+                                                onMouseUp={[Function]}
+                                                onValueChange={[Function]}
+                                                prefix=""
+                                                suffix=" €"
+                                                thousandSeparator=" "
+                                                thousandSpacing="3"
+                                                type="text"
+                                                value={53}
+                                />
+                </td>
+                <td>
+                                <Unknown>
+                                                [Function]
+                                </Unknown>
+                </td>
+</tr>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    oui
+</td>,
+                  <td>
+                    17/12/1995
+</td>,
+                  <td
+                    className={undefined}
+>
+                    <CurrencyFormat
+                                        allowNegative={true}
+                                        decimalScale={2}
+                                        decimalSeparator="."
+                                        displayType="text"
+                                        fixedDecimalScale={false}
+                                        isAllowed={[Function]}
+                                        isNumericString={false}
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onMouseUp={[Function]}
+                                        onValueChange={[Function]}
+                                        prefix=""
+                                        suffix=" €"
+                                        thousandSeparator=" "
+                                        thousandSpacing="3"
+                                        type="text"
+                                        value={35}
+                    />
+</td>,
+                  <td>
+                    <Unknown>
+                                        [Function]
+                    </Unknown>
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "oui",
+                  },
+                  "ref": null,
+                  "rendered": "oui",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "17/12/1995",
+                  },
+                  "ref": null,
+                  "rendered": "17/12/1995",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <CurrencyFormat
+                      allowNegative={true}
+                      decimalScale={2}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={false}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix=""
+                      suffix=" €"
+                      thousandSeparator=" "
+                      thousandSpacing="3"
+                      type="text"
+                      value={35}
+/>,
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "allowNegative": true,
+                      "decimalScale": 2,
+                      "decimalSeparator": ".",
+                      "displayType": "text",
+                      "fixedDecimalScale": false,
+                      "isAllowed": [Function],
+                      "isNumericString": false,
+                      "onBlur": [Function],
+                      "onChange": [Function],
+                      "onFocus": [Function],
+                      "onKeyDown": [Function],
+                      "onMouseUp": [Function],
+                      "onValueChange": [Function],
+                      "prefix": "",
+                      "suffix": " €",
+                      "thousandSeparator": " ",
+                      "thousandSpacing": "3",
+                      "type": "text",
+                      "value": 35,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Unknown>
+                      [Function]
+</Unknown>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": [Function],
+                    },
+                    "ref": null,
+                    "rendered": [Function],
+                    "type": Object {
+                      "$$typeof": Symbol(react.context),
+                      "_calculateChangedBits": null,
+                      "_context": Object {
+                        "$$typeof": Symbol(react.context),
+                        "Consumer": [Circular],
+                        "Provider": Object {
+                          "$$typeof": Symbol(react.provider),
+                          "_context": [Circular],
+                        },
+                        "_calculateChangedBits": null,
+                        "_currentRenderer": null,
+                        "_currentRenderer2": null,
+                        "_currentValue": undefined,
+                        "_currentValue2": undefined,
+                        "_threadCount": 0,
+                      },
+                    },
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    non
+</td>,
+                  <td>
+                    18/12/1995
+</td>,
+                  <td
+                    className={undefined}
+>
+                    <CurrencyFormat
+                                        allowNegative={true}
+                                        decimalScale={2}
+                                        decimalSeparator="."
+                                        displayType="text"
+                                        fixedDecimalScale={false}
+                                        isAllowed={[Function]}
+                                        isNumericString={false}
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onMouseUp={[Function]}
+                                        onValueChange={[Function]}
+                                        prefix=""
+                                        suffix=" €"
+                                        thousandSeparator=" "
+                                        thousandSpacing="3"
+                                        type="text"
+                                        value={53}
+                    />
+</td>,
+                  <td>
+                    <Unknown>
+                                        [Function]
+                    </Unknown>
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "non",
+                  },
+                  "ref": null,
+                  "rendered": "non",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "18/12/1995",
+                  },
+                  "ref": null,
+                  "rendered": "18/12/1995",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <CurrencyFormat
+                      allowNegative={true}
+                      decimalScale={2}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={false}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix=""
+                      suffix=" €"
+                      thousandSeparator=" "
+                      thousandSpacing="3"
+                      type="text"
+                      value={53}
+/>,
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "allowNegative": true,
+                      "decimalScale": 2,
+                      "decimalSeparator": ".",
+                      "displayType": "text",
+                      "fixedDecimalScale": false,
+                      "isAllowed": [Function],
+                      "isNumericString": false,
+                      "onBlur": [Function],
+                      "onChange": [Function],
+                      "onFocus": [Function],
+                      "onKeyDown": [Function],
+                      "onMouseUp": [Function],
+                      "onValueChange": [Function],
+                      "prefix": "",
+                      "suffix": " €",
+                      "thousandSeparator": " ",
+                      "thousandSpacing": "3",
+                      "type": "text",
+                      "value": 53,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Unknown>
+                      [Function]
+</Unknown>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": [Function],
+                    },
+                    "ref": null,
+                    "rendered": [Function],
+                    "type": Object {
+                      "$$typeof": Symbol(react.context),
+                      "_calculateChangedBits": null,
+                      "_context": Object {
+                        "$$typeof": Symbol(react.context),
+                        "Consumer": [Circular],
+                        "Provider": Object {
+                          "$$typeof": Symbol(react.provider),
+                          "_context": [Circular],
+                        },
+                        "_calculateChangedBits": null,
+                        "_currentRenderer": null,
+                        "_currentRenderer2": null,
+                        "_currentValue": undefined,
+                        "_currentValue2": undefined,
+                        "_threadCount": 0,
+                      },
+                    },
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Array [],
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Testing ContentTable component renders as expected without parameters 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ContentTable />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): null,
+  Symbol(enzyme.__nodes__): Array [
+    null,
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Array [],
+  Symbol(enzyme.__childContext__): null,
+}
+`;

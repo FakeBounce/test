@@ -1,0 +1,66 @@
+.ContactsContainer {
+  height: calc(100vh - 245px);
+  overflow: auto;
+  overflow-x:hidden
+}
+
+.TabBox {
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.12);
+  border-radius: 2px;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+  .Header {
+    margin-bottom: 25px;
+    > h4 {
+      color: #1F2B3D;
+      letter-spacing: 1.14px;
+      font-size: 16px;
+      text-align: left;
+      margin-bottom: 0;
+    }
+    > p {
+      color: #8C929C;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-align: left;
+    }
+  }
+  .TransparentRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    span {
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: #1F2B3D;
+    }
+  }
+  .GrayRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 20px;
+    &:first-child {
+      margin-top: 5px;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    span {
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      font-size: 14px;
+      color: #1F2B3D;
+    }
+    a {
+      cursor: pointer;
+    }
+    .noStyle {
+      text-decoration: none;
+      text-underline: none;
+      color: #1F2B3D;
+    }
+  }
+}

@@ -1,0 +1,122 @@
+@import '~common/styles/_common';
+
+.TabBox {
+  display: flex;
+  // min-height: 125px;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.12);
+  background-color: #fff;
+  padding: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: none; 
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+  .Header {
+    display: flex;
+    justify-content: center;
+    // margin-bottom: 20px;
+    > span {
+      height: 70px;
+      width: 70px;
+      background-color: #5696FF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      font-size: 27px;
+      letter-spacing: 1px;
+      @media (max-width: 1024px) {
+        height: 45px;
+        width: 45px;
+        font-size: 21px;
+      }
+      color: #FFFFFF;
+    }
+  }
+  h4 {
+    font-size: 15px;
+    color: #1F2B3D;
+    text-align: left;
+    margin-bottom: 0;
+    padding-left: 5px;
+  }
+  p {
+    color: $text-gray;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+  }
+  input, select {
+    border: 0;
+    background-color: #F5F5F5;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    &:active, &:focus, &:hover {
+      box-shadow: none;
+      background-color: #F5F5F5;
+    }
+  }
+  select {
+    padding-left: 1px;
+  }
+  .EditButton {
+    margin-top: 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    border-radius: 2px;
+    background-color: #5696FF;
+    border: 0;
+    &:global(.btn.btn-secondary) {
+      &:hover, &:focus, &:active {
+        box-shadow: none;
+        background-color: #5696FF;
+      }
+    }
+  }
+  .DeleteButton {
+    transform: rotate(-45deg);
+    color: #000;
+    background-color: transparent;
+    border: 0;
+    font-size: 34px;
+    line-height: 18px;
+    padding: 5px;
+    opacity: .5;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    &:global(.btn.btn-secondary) {
+      &:focus, &:active, &:hover {
+        box-shadow: none;
+        background-color: transparent;
+        color: #000;
+      }
+    }
+  }
+}
+
+.Active {
+  background-color: rgb(219, 231, 253);
+}
+
+.UserInfo {
+  margin-left: 20px;
+}
+
+.UserFunction {
+  color: $text-gray !important;
+}

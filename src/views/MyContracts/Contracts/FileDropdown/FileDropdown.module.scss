@@ -1,0 +1,25 @@
+.DownloadFile {
+  &:global(.btn.btn-secondary) {
+    margin: 0;
+    padding: 38px;
+    border: 0;
+    background: url("assets/images/download_file_icon.png") no-repeat;
+    background-position: center center;
+    background-size: 35px 30px;
+  }
+}
+.DropdownMenu {
+  &:global(.dropdown-menu.show) {
+    button {
+      margin-bottom: 0;
+      &:active, &:focus {
+        outline: 0;
+      }
+    }
+  }
+}
+
+.NoDocuments {
+  margin-left: 20px;
+  margin-bottom: 0px!important;
+}

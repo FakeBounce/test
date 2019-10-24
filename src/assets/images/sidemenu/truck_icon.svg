@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="19px" viewBox="0 0 30 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Truck</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu/60x60_Enlevement_Clic" transform="translate(-14.000000, -20.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <g id="Truck" transform="translate(15.000000, 21.000000)">
+                <path d="M9,0 L28,0 L28,15 L24.5211426,15 C24.5715184,12.9969329 23.8255152,11.9953993 22.2831329,11.9953993 C20.7407506,11.9953993 19.9639691,12.9969329 19.9527886,15 L9,15 L9,0 Z" id="Rectangle" stroke-linejoin="round"></path>
+                <path d="M8.9954411,13.2911146 L6.27587156,13.2911146 C5.84648917,12.4416772 5.17280946,12.0169586 4.25483243,12.0169586 C3.33685539,12.0169586 2.65668231,12.4416772 2.21431317,13.2911146 L0.197459127,13.2911146 C0.0624467417,10.1998047 0.215498192,8.47552838 0.656613479,8.11828562 C1.22457713,7.65831312 3.67161682,7.35611939 4.15521457,6.6455573 C4.55113936,6.06381524 5.25802502,4.51529614 6.27587156,2 L8.9954411,2 L8.9954411,13.2911146 Z" id="Path-7" stroke-linejoin="round"></path>
+                <circle id="Oval" cx="4.25" cy="14.25" r="2.25"></circle>
+                <circle id="Oval" cx="22.25" cy="14.25" r="2.25"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

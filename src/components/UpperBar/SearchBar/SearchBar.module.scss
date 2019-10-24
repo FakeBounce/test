@@ -1,0 +1,44 @@
+@import '~common/styles/variables';
+
+.GlobalSearch {
+  position: relative;
+  z-index: -1;
+}
+
+.GlobalSearch div {
+  &:global(.collapse) {
+    position: absolute;
+    width: calc(100% - 60px);
+    right: 0;
+    margin-left: 60px;
+    background-color: $white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  &:global(.collapsing) {
+    position: absolute;
+    margin-left: 60px;
+    right: 0;
+    left: 0;
+    background-color: $white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+}
+
+.GlobalSearch input {
+  width: 100%;
+  font-size: 18px;
+  letter-spacing: 0.09px;
+  line-height: 22px;
+  font-weight: 300;
+  color: $light-gray;
+  height: initial;
+  padding: 19px 25px;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 0.5px solid $light-gray;
+  margin-bottom: 50px;
+  &:focus {
+    border-color: $light-gray;
+    box-shadow: none;
+  }
+}

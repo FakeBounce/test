@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Menu/60x60_Reporting_Clic" transform="translate(-20.000000, -20.000000)" stroke="#FFFFFF">
+            <g id="Group" transform="translate(21.000000, 21.000000)">
+                <path d="M9.16735135,18.9085467 C4.11251351,18.9085467 8.8817842e-15,14.62544 8.8817842e-15,9.36092 C8.8817842e-15,4.82726667 3.09308108,0.890213333 7.35494595,3.96127575e-13 L7.54637838,0.993573333 C3.73743243,1.78929333 0.972972973,5.30834667 0.972972973,9.36092 C0.972972973,14.06684 4.64886486,17.8952133 9.16735135,17.8952133 C12.4681622,17.8952133 15.4318378,15.8492933 16.7181081,12.6826267 L17.613973,13.0775733 C16.1754324,16.61968 12.860027,18.9085467 9.16735135,18.9085467 Z" id="Stroke-3" stroke-width="0.8" fill="#FFFFFF"></path>
+                <path d="M12.2694081,0.817861333 C15.0504081,1.84107467 17.1812189,4.29790133 17.8430838,7.336128 C17.899273,7.59427467 17.9447595,7.85647467 17.9793,8.12247467 L8.8263,9.44943467 L12.2694081,0.817861333 Z" id="Stroke-5" stroke-width="1.5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,128 @@
+.contratSelector {
+  position: relative;
+  height: 50px;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  text-align: left;
+
+  .contractsNumber {
+    position: absolute;
+    top: 14px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .dropdownYearContainer {
+    display: inline-block;
+    margin-left: 20%;
+  }
+
+  .drop {
+    margin-top: 7px;
+    height: 35px;
+    border: none;
+    background-color: #5696ff !important;
+  }
+
+  .btnSearch {
+    height: 50px;
+    width: 75px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background: url("assets/images/search_white_icon.png") no-repeat center
+      #5696ff;
+    &:hover {
+      background-color: #1a71ff;
+    }
+  }
+}
+
+.periodSelectorContainer {
+  flex:1;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 30px;
+}
+
+.periodContainer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contratPeriodSelector {
+  position: relative;
+  height: 50px;
+  margin-bottom: 15px;
+  text-align: left;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+
+  .contractsNumber {
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 14px;
+  }
+
+  .dropdownYearContainer {
+    height: 50px;
+  }
+
+  .drop {
+    margin-top: 7px;
+    height: 35px;
+    border: none;
+    background-color: #5696ff !important;
+  }
+
+  .btnSearch {
+    height: 50px;
+    width: 75px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background: url("assets/images/search_white_icon.png") no-repeat center
+      #5696ff;
+    &:hover {
+      background-color: #1a71ff;
+    }
+  }
+}
+
+.btnBlue {
+  margin-left: 7px;
+  margin-top: 7px;
+  background-color: #5696ff;
+  border: 1px solid #5696ff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: #ffffff;
+    color: #5696ff;
+    border: 1px solid #5696ff;
+  }
+}
+
+.contratMultiSelect {
+  font-size: 12px;
+}
+
+.selectAll {
+  cursor: pointer;
+  input {
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+}

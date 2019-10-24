@@ -1,0 +1,88 @@
+.Title {
+  font-size: 16px;
+  color: #1f2b3d;
+  margin: 0px;
+}
+.userRow {
+  font-size: 14px;
+  color: #1f2b3d;
+  width: 90%;
+  margin-left: 5%;
+  height: 30px;
+  justify-content: space-around;
+}
+.inputLabel {
+  font-size: 14px;
+  color: #1f2b3d;
+  margin-bottom: 15px;
+}
+.secondInputLabel {
+  font-size: 14px;
+  color: #1f2b3d;
+  margin-top: 15px;
+}
+.permissionsActions {
+  height: 40px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  text-align: center;
+}
+.addUserPermission {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  span {
+    color: white;
+    font-size: 18px;
+  }
+}
+.breakInheritance {
+  height: 30px;
+  width: 110px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 15px;
+  span {
+    color: white;
+    font-size: 12px;
+  }
+}
+.DeleteUserPermissions {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  padding: 3px;
+  cursor: pointer;
+  text-align: center;
+}
+.hasInheritance {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #1f2b3d;
+  font-style: italic;
+}
+.rightButton {
+  margin-left: 15px;
+}
+.levelSelect {
+  font-size: 12px;
+}

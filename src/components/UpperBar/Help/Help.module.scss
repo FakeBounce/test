@@ -1,0 +1,21 @@
+@import '~common/styles/variables';
+.HelpContainer {
+  border-right: 1px solid rgba(151, 151, 151, 0.54);
+  order: 4;
+}
+
+.HelpButton {
+  padding: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: $marine-blue;
+  padding: 0 15px;
+  &:hover, &:focus {
+    text-decoration: none;
+    color: $marine-blue;
+  }
+}

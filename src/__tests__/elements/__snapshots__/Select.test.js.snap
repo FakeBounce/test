@@ -1,0 +1,454 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Select component renders as expected with props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SelectElement
+    setOptions={
+        Array [
+            Object {
+              "name": "1",
+              "value": 1,
+            },
+            Object {
+              "name": "2",
+              "value": 2,
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Input
+        name="select"
+        onChange={[Function]}
+        type="select"
+        value=""
+>
+        <option
+                value=""
+        >
+                Sélectionner une option
+        </option>
+        <option
+                name="1"
+                value={1}
+        >
+                1
+        </option>
+        <option
+                name="2"
+                value={2}
+        >
+                2
+        </option>
+</Input>,
+      "className": "undefined undefined",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <option
+            value=""
+>
+            Sélectionner une option
+</option>,
+          Array [
+            <option
+              name="1"
+              value={1}
+>
+              1
+</option>,
+            <option
+              name="2"
+              value={2}
+>
+              2
+</option>,
+          ],
+        ],
+        "name": "select",
+        "onChange": [Function],
+        "type": "select",
+        "value": "",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sélectionner une option",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": "Sélectionner une option",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "options-1-0",
+          "nodeType": "host",
+          "props": Object {
+            "children": "1",
+            "name": "1",
+            "value": 1,
+          },
+          "ref": null,
+          "rendered": "1",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": "options-2-1",
+          "nodeType": "host",
+          "props": Object {
+            "children": "2",
+            "name": "2",
+            "value": 2,
+          },
+          "ref": null,
+          "rendered": "2",
+          "type": "option",
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Input
+          name="select"
+          onChange={[Function]}
+          type="select"
+          value=""
+>
+          <option
+                    value=""
+          >
+                    Sélectionner une option
+          </option>
+          <option
+                    name="1"
+                    value={1}
+          >
+                    1
+          </option>
+          <option
+                    name="2"
+                    value={2}
+          >
+                    2
+          </option>
+</Input>,
+        "className": "undefined undefined",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <option
+              value=""
+>
+              Sélectionner une option
+</option>,
+            Array [
+              <option
+                name="1"
+                value={1}
+>
+                1
+</option>,
+              <option
+                name="2"
+                value={2}
+>
+                2
+</option>,
+            ],
+          ],
+          "name": "select",
+          "onChange": [Function],
+          "type": "select",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sélectionner une option",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": "Sélectionner une option",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "options-1-0",
+            "nodeType": "host",
+            "props": Object {
+              "children": "1",
+              "name": "1",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": "1",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "options-2-1",
+            "nodeType": "host",
+            "props": Object {
+              "children": "2",
+              "name": "2",
+              "value": 2,
+            },
+            "ref": null,
+            "rendered": "2",
+            "type": "option",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Array [],
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Testing Select component renders as expected without props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SelectElement />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Input
+        name="select"
+        onChange={[Function]}
+        type="select"
+        value=""
+>
+        <option
+                value=""
+        >
+                Sélectionner une option
+        </option>
+        <div />
+</Input>,
+      "className": "undefined undefined",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <option
+            value=""
+>
+            Sélectionner une option
+</option>,
+          <div />,
+        ],
+        "name": "select",
+        "onChange": [Function],
+        "type": "select",
+        "value": "",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sélectionner une option",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": "Sélectionner une option",
+          "type": "option",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Input
+          name="select"
+          onChange={[Function]}
+          type="select"
+          value=""
+>
+          <option
+                    value=""
+          >
+                    Sélectionner une option
+          </option>
+          <div />
+</Input>,
+        "className": "undefined undefined",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <option
+              value=""
+>
+              Sélectionner une option
+</option>,
+            <div />,
+          ],
+          "name": "select",
+          "onChange": [Function],
+          "type": "select",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sélectionner une option",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": "Sélectionner une option",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Array [],
+  Symbol(enzyme.__childContext__): null,
+}
+`;

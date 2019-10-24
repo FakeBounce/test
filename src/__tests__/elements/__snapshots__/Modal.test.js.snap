@@ -1,0 +1,1032 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Modal component renders as expected with params (closed) 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ModalElement
+    file={null}
+    isOpen={false}
+    title="Title"
+    toggle={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Modal
+        autoFocus={true}
+        backdrop={true}
+        backdropTransition={
+                Object {
+                        "mountOnEnter": true,
+                        "timeout": 150,
+                      }
+        }
+        centered={false}
+        className="undefined undefined"
+        fade={true}
+        isOpen={false}
+        keyboard={true}
+        modalTransition={
+                Object {
+                        "timeout": 300,
+                      }
+        }
+        onClosed={[Function]}
+        onOpened={[Function]}
+        returnFocusAfterClose={true}
+        role="dialog"
+        scrollable={false}
+        toggle={[Function]}
+        unmountOnClose={true}
+        zIndex={1050}
+>
+        <ModalHeader
+                charCode={215}
+                className={undefined}
+                closeAriaLabel="Close"
+                tag="h5"
+                toggle={[Function]}
+                wrapTag="div"
+        >
+                Title
+        </ModalHeader>
+        <ModalBody
+                className={undefined}
+                tag="div"
+        />
+        <ModalFooter
+                tag="div"
+        />
+</Modal>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "autoFocus": true,
+        "backdrop": true,
+        "backdropTransition": Object {
+          "mountOnEnter": true,
+          "timeout": 150,
+        },
+        "centered": false,
+        "children": Array [
+          <ModalHeader
+            charCode={215}
+            className={undefined}
+            closeAriaLabel="Close"
+            tag="h5"
+            toggle={[Function]}
+            wrapTag="div"
+>
+            Title
+</ModalHeader>,
+          <ModalBody
+            className={undefined}
+            tag="div"
+/>,
+          <ModalFooter
+            tag="div"
+/>,
+        ],
+        "className": "undefined undefined",
+        "fade": true,
+        "isOpen": false,
+        "keyboard": true,
+        "modalTransition": Object {
+          "timeout": 300,
+        },
+        "onClosed": [Function],
+        "onOpened": [Function],
+        "returnFocusAfterClose": true,
+        "role": "dialog",
+        "scrollable": false,
+        "toggle": [Function],
+        "unmountOnClose": true,
+        "zIndex": 1050,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "charCode": 215,
+            "children": "Title",
+            "className": undefined,
+            "closeAriaLabel": "Close",
+            "tag": "h5",
+            "toggle": [Function],
+            "wrapTag": "div",
+          },
+          "ref": null,
+          "rendered": "Title",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": undefined,
+            "className": undefined,
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": null,
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Modal
+          autoFocus={true}
+          backdrop={true}
+          backdropTransition={
+                    Object {
+                              "mountOnEnter": true,
+                              "timeout": 150,
+                            }
+          }
+          centered={false}
+          className="undefined undefined"
+          fade={true}
+          isOpen={false}
+          keyboard={true}
+          modalTransition={
+                    Object {
+                              "timeout": 300,
+                            }
+          }
+          onClosed={[Function]}
+          onOpened={[Function]}
+          returnFocusAfterClose={true}
+          role="dialog"
+          scrollable={false}
+          toggle={[Function]}
+          unmountOnClose={true}
+          zIndex={1050}
+>
+          <ModalHeader
+                    charCode={215}
+                    className={undefined}
+                    closeAriaLabel="Close"
+                    tag="h5"
+                    toggle={[Function]}
+                    wrapTag="div"
+          >
+                    Title
+          </ModalHeader>
+          <ModalBody
+                    className={undefined}
+                    tag="div"
+          />
+          <ModalFooter
+                    tag="div"
+          />
+</Modal>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoFocus": true,
+          "backdrop": true,
+          "backdropTransition": Object {
+            "mountOnEnter": true,
+            "timeout": 150,
+          },
+          "centered": false,
+          "children": Array [
+            <ModalHeader
+              charCode={215}
+              className={undefined}
+              closeAriaLabel="Close"
+              tag="h5"
+              toggle={[Function]}
+              wrapTag="div"
+>
+              Title
+</ModalHeader>,
+            <ModalBody
+              className={undefined}
+              tag="div"
+/>,
+            <ModalFooter
+              tag="div"
+/>,
+          ],
+          "className": "undefined undefined",
+          "fade": true,
+          "isOpen": false,
+          "keyboard": true,
+          "modalTransition": Object {
+            "timeout": 300,
+          },
+          "onClosed": [Function],
+          "onOpened": [Function],
+          "returnFocusAfterClose": true,
+          "role": "dialog",
+          "scrollable": false,
+          "toggle": [Function],
+          "unmountOnClose": true,
+          "zIndex": 1050,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "charCode": 215,
+              "children": "Title",
+              "className": undefined,
+              "closeAriaLabel": "Close",
+              "tag": "h5",
+              "toggle": [Function],
+              "wrapTag": "div",
+            },
+            "ref": null,
+            "rendered": "Title",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": undefined,
+              "className": undefined,
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": null,
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Array [],
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Testing Modal component renders as expected with params (opened) 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ModalElement
+    file={null}
+    isOpen={true}
+    title="Title"
+    toggle={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Modal
+        autoFocus={true}
+        backdrop={true}
+        backdropTransition={
+                Object {
+                        "mountOnEnter": true,
+                        "timeout": 150,
+                      }
+        }
+        centered={false}
+        className="undefined undefined"
+        fade={true}
+        isOpen={true}
+        keyboard={true}
+        modalTransition={
+                Object {
+                        "timeout": 300,
+                      }
+        }
+        onClosed={[Function]}
+        onOpened={[Function]}
+        returnFocusAfterClose={true}
+        role="dialog"
+        scrollable={false}
+        toggle={[Function]}
+        unmountOnClose={true}
+        zIndex={1050}
+>
+        <ModalHeader
+                charCode={215}
+                className={undefined}
+                closeAriaLabel="Close"
+                tag="h5"
+                toggle={[Function]}
+                wrapTag="div"
+        >
+                Title
+        </ModalHeader>
+        <ModalBody
+                className={undefined}
+                tag="div"
+        />
+        <ModalFooter
+                tag="div"
+        />
+</Modal>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "autoFocus": true,
+        "backdrop": true,
+        "backdropTransition": Object {
+          "mountOnEnter": true,
+          "timeout": 150,
+        },
+        "centered": false,
+        "children": Array [
+          <ModalHeader
+            charCode={215}
+            className={undefined}
+            closeAriaLabel="Close"
+            tag="h5"
+            toggle={[Function]}
+            wrapTag="div"
+>
+            Title
+</ModalHeader>,
+          <ModalBody
+            className={undefined}
+            tag="div"
+/>,
+          <ModalFooter
+            tag="div"
+/>,
+        ],
+        "className": "undefined undefined",
+        "fade": true,
+        "isOpen": true,
+        "keyboard": true,
+        "modalTransition": Object {
+          "timeout": 300,
+        },
+        "onClosed": [Function],
+        "onOpened": [Function],
+        "returnFocusAfterClose": true,
+        "role": "dialog",
+        "scrollable": false,
+        "toggle": [Function],
+        "unmountOnClose": true,
+        "zIndex": 1050,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "charCode": 215,
+            "children": "Title",
+            "className": undefined,
+            "closeAriaLabel": "Close",
+            "tag": "h5",
+            "toggle": [Function],
+            "wrapTag": "div",
+          },
+          "ref": null,
+          "rendered": "Title",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": undefined,
+            "className": undefined,
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": null,
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Modal
+          autoFocus={true}
+          backdrop={true}
+          backdropTransition={
+                    Object {
+                              "mountOnEnter": true,
+                              "timeout": 150,
+                            }
+          }
+          centered={false}
+          className="undefined undefined"
+          fade={true}
+          isOpen={true}
+          keyboard={true}
+          modalTransition={
+                    Object {
+                              "timeout": 300,
+                            }
+          }
+          onClosed={[Function]}
+          onOpened={[Function]}
+          returnFocusAfterClose={true}
+          role="dialog"
+          scrollable={false}
+          toggle={[Function]}
+          unmountOnClose={true}
+          zIndex={1050}
+>
+          <ModalHeader
+                    charCode={215}
+                    className={undefined}
+                    closeAriaLabel="Close"
+                    tag="h5"
+                    toggle={[Function]}
+                    wrapTag="div"
+          >
+                    Title
+          </ModalHeader>
+          <ModalBody
+                    className={undefined}
+                    tag="div"
+          />
+          <ModalFooter
+                    tag="div"
+          />
+</Modal>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoFocus": true,
+          "backdrop": true,
+          "backdropTransition": Object {
+            "mountOnEnter": true,
+            "timeout": 150,
+          },
+          "centered": false,
+          "children": Array [
+            <ModalHeader
+              charCode={215}
+              className={undefined}
+              closeAriaLabel="Close"
+              tag="h5"
+              toggle={[Function]}
+              wrapTag="div"
+>
+              Title
+</ModalHeader>,
+            <ModalBody
+              className={undefined}
+              tag="div"
+/>,
+            <ModalFooter
+              tag="div"
+/>,
+          ],
+          "className": "undefined undefined",
+          "fade": true,
+          "isOpen": true,
+          "keyboard": true,
+          "modalTransition": Object {
+            "timeout": 300,
+          },
+          "onClosed": [Function],
+          "onOpened": [Function],
+          "returnFocusAfterClose": true,
+          "role": "dialog",
+          "scrollable": false,
+          "toggle": [Function],
+          "unmountOnClose": true,
+          "zIndex": 1050,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "charCode": 215,
+              "children": "Title",
+              "className": undefined,
+              "closeAriaLabel": "Close",
+              "tag": "h5",
+              "toggle": [Function],
+              "wrapTag": "div",
+            },
+            "ref": null,
+            "rendered": "Title",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": undefined,
+              "className": undefined,
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": null,
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Array [],
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Testing Modal component renders as expected without params 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ModalElement />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Modal
+        autoFocus={true}
+        backdrop={true}
+        backdropTransition={
+                Object {
+                        "mountOnEnter": true,
+                        "timeout": 150,
+                      }
+        }
+        centered={false}
+        className="undefined undefined"
+        fade={true}
+        isOpen={false}
+        keyboard={true}
+        modalTransition={
+                Object {
+                        "timeout": 300,
+                      }
+        }
+        onClosed={[Function]}
+        onOpened={[Function]}
+        returnFocusAfterClose={true}
+        role="dialog"
+        scrollable={false}
+        toggle={undefined}
+        unmountOnClose={true}
+        zIndex={1050}
+>
+        <ModalHeader
+                charCode={215}
+                className={undefined}
+                closeAriaLabel="Close"
+                tag="h5"
+                toggle={undefined}
+                wrapTag="div"
+        />
+        <ModalBody
+                className={undefined}
+                tag="div"
+        />
+        <ModalFooter
+                tag="div"
+        />
+</Modal>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "autoFocus": true,
+        "backdrop": true,
+        "backdropTransition": Object {
+          "mountOnEnter": true,
+          "timeout": 150,
+        },
+        "centered": false,
+        "children": Array [
+          <ModalHeader
+            charCode={215}
+            className={undefined}
+            closeAriaLabel="Close"
+            tag="h5"
+            toggle={undefined}
+            wrapTag="div"
+/>,
+          <ModalBody
+            className={undefined}
+            tag="div"
+/>,
+          <ModalFooter
+            tag="div"
+/>,
+        ],
+        "className": "undefined undefined",
+        "fade": true,
+        "isOpen": false,
+        "keyboard": true,
+        "modalTransition": Object {
+          "timeout": 300,
+        },
+        "onClosed": [Function],
+        "onOpened": [Function],
+        "returnFocusAfterClose": true,
+        "role": "dialog",
+        "scrollable": false,
+        "toggle": undefined,
+        "unmountOnClose": true,
+        "zIndex": 1050,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "charCode": 215,
+            "children": undefined,
+            "className": undefined,
+            "closeAriaLabel": "Close",
+            "tag": "h5",
+            "toggle": undefined,
+            "wrapTag": "div",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": undefined,
+            "className": undefined,
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": null,
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Modal
+          autoFocus={true}
+          backdrop={true}
+          backdropTransition={
+                    Object {
+                              "mountOnEnter": true,
+                              "timeout": 150,
+                            }
+          }
+          centered={false}
+          className="undefined undefined"
+          fade={true}
+          isOpen={false}
+          keyboard={true}
+          modalTransition={
+                    Object {
+                              "timeout": 300,
+                            }
+          }
+          onClosed={[Function]}
+          onOpened={[Function]}
+          returnFocusAfterClose={true}
+          role="dialog"
+          scrollable={false}
+          toggle={undefined}
+          unmountOnClose={true}
+          zIndex={1050}
+>
+          <ModalHeader
+                    charCode={215}
+                    className={undefined}
+                    closeAriaLabel="Close"
+                    tag="h5"
+                    toggle={undefined}
+                    wrapTag="div"
+          />
+          <ModalBody
+                    className={undefined}
+                    tag="div"
+          />
+          <ModalFooter
+                    tag="div"
+          />
+</Modal>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoFocus": true,
+          "backdrop": true,
+          "backdropTransition": Object {
+            "mountOnEnter": true,
+            "timeout": 150,
+          },
+          "centered": false,
+          "children": Array [
+            <ModalHeader
+              charCode={215}
+              className={undefined}
+              closeAriaLabel="Close"
+              tag="h5"
+              toggle={undefined}
+              wrapTag="div"
+/>,
+            <ModalBody
+              className={undefined}
+              tag="div"
+/>,
+            <ModalFooter
+              tag="div"
+/>,
+          ],
+          "className": "undefined undefined",
+          "fade": true,
+          "isOpen": false,
+          "keyboard": true,
+          "modalTransition": Object {
+            "timeout": 300,
+          },
+          "onClosed": [Function],
+          "onOpened": [Function],
+          "returnFocusAfterClose": true,
+          "role": "dialog",
+          "scrollable": false,
+          "toggle": undefined,
+          "unmountOnClose": true,
+          "zIndex": 1050,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "charCode": 215,
+              "children": undefined,
+              "className": undefined,
+              "closeAriaLabel": "Close",
+              "tag": "h5",
+              "toggle": undefined,
+              "wrapTag": "div",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": undefined,
+              "className": undefined,
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": null,
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Array [],
+  Symbol(enzyme.__childContext__): null,
+}
+`;

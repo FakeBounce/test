@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="23px" viewBox="0 0 20 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu/60x60_Accueil_Clic" transform="translate(-20.000000, -19.000000)" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.5">
+            <path d="M30,20 C29.6428193,20 29.3014699,20.1404661 29.055759,20.3884086 L21.3569639,28.158448 C21.1277349,28.3897918 21,28.696452 21,29.0149388 L21,39.7551006 C21,40.4424926 21.5827229,41 22.3012048,41 L37.6987952,41 C38.417494,41 39,40.4424926 39,39.7551006 L39,29.0149388 C39,28.696452 38.8722651,28.3897918 38.6430361,28.158448 L30.944241,20.3884086 C30.698747,20.1404661 30.3571807,20 30,20 M30,21.2448994 L37.6987952,29.0149388 L37.6987952,39.7551006 L22.3012048,39.7551006 L22.3012048,29.0149388 L30,21.2448994" id="Fill-1"></path>
+        </g>
+    </g>
+</svg>

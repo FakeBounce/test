@@ -1,0 +1,88 @@
+.PurchaseSlipsTable {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  margin-top: -5px;
+  td, th {
+    text-align: left;
+  }
+  thead {
+    th {
+      border: 0;
+      font-size: 13px;
+      font-weight: 300;
+      line-height: 16px;
+      letter-spacing: 0.09px;
+      color: #1F2B3D;
+      box-shadow: none;
+    }
+  }
+  tbody {
+    tr {
+      height: 37px;
+      td {
+        background-color: #FFFFFF;
+        border-radius: 2px;
+        border: 0;
+        color: #1F2B3E;
+      }
+    }
+  }
+}
+
+.TopBar {
+  margin-top: 70px;
+}
+
+.SearchResult {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #8C929C;
+  font-size: 16px;
+  letter-spacing: 1.33px;
+  text-align: left;
+}
+
+.SearchPhrase {
+  color: #1F2B3E;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  &:before {
+    content: '«';
+    position: absolute;
+    left: 0;
+  }
+  &:after {
+    content: '»';
+    position: absolute;
+    right: 0;
+  }
+}
+
+.SortContainer {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  span {
+    font-size: 12px;
+    color: #9FA9B5;
+    font-weight: 300;
+    &:first-child {
+      margin-right: 40px;
+    }
+  }
+}
+
+.SearchList {
+  position: relative;
+}
+
+ul {
+  &:global(.list-group) {
+    margin-bottom: 16px;
+    li {
+      display: flex;
+      margin-bottom: 5px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.Breadcrumb > nav > ol  {
+  background-color: transparent;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.Breadcrumb > nav > ol > span,
+.Breadcrumb > nav > ol > a {
+  font-size: 11px;
+  color: #1F2B3E;
+  font-weight: 300;
+}

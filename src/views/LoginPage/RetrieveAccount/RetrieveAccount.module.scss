@@ -1,0 +1,72 @@
+.EmailPage {
+  > p {
+    font-size: 12px;
+    color: #1F2B3D;
+    line-height: 14px;
+    font-weight: 300;
+    text-align: left;
+    max-width: 285px;
+    margin-bottom: 31px;
+  }
+  .EmailGroup {
+    label {
+      position: absolute;
+      z-index: 4;
+      color: #1F2B3D;
+      font-size: 10px;
+      left: 41px;
+      top: 10px;
+      opacity: 0;
+      transition: opacity .5s, top .5s;
+      pointer-events: none;
+    }
+    .EmailInput {
+      background-image: url("assets/images/user_icon.png");
+      background-repeat: no-repeat;
+      background-size: 15px 16px;
+      background-position: 13px 13px;
+      padding-top: 13px;
+      padding-left: 40px;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.12);
+      border-radius: 2px;
+      font-size: 14px;
+      &:valid {
+        +label {
+          top: 3px;
+          opacity: .7;
+        }
+      }
+      &:focus {
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.12);
+        border-color: rgb(206, 212, 218);
+        &::placeholder {
+          opacity: 0;
+        }
+        +label {
+          top: 3px;
+          opacity: .7;
+        }
+      }
+    }
+  }
+  button {
+    &:global(.btn.btn-secondary) {
+      margin-top: 32px;
+    }
+  }
+}
+
+.ErrorMessage {
+  position: absolute;
+  bottom: -25px;
+  font-size: 11px;
+  color: #E36065;
+  margin: 0;
+  margin-left: 27px;
+}
+
+.EmailInput.Red {
+  background-color: #F7EAEA;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.12);
+}
+

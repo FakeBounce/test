@@ -1,0 +1,102 @@
+@import "~common/styles/_common";
+
+.Sidebar {
+  min-width: 50%;
+  padding: 15px 15px 0;
+  margin-right: 60px;
+  box-shadow: 5px -3px 5px -4px #c7c7c7;
+}
+
+.ActiveUser {
+  width: 100%;
+  padding-top: 15px;
+}
+.Users {
+  display: flex;
+  height: calc(100vh - 245px);
+  .TopBar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .UsersList {
+    position: relative;
+    margin-top: 10px;
+    .SortContainer {
+      span {
+        font-size: 16px;
+        color: #9fa9b5;
+        font-weight: 300;
+        &:first-child {
+          margin-right: 10px;
+        }
+      }
+    }
+    .UsersListContainer {
+      height: calc(100vh - 345px);
+      overflow: auto;
+    }
+  }
+}
+.ClickTextCursor {
+  display: block;
+  font-size: 14px !important;
+}
+.SortContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.Separator {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  span {
+    font-size: 14px;
+    color: $light-gray;
+  }
+}
+.HorizontalLine {
+  height: 1px;
+  background-color: $light-gray;
+  width: 100%;
+  margin-left: 15px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .HorizontalLine {
+    width: 90% !important;
+  }
+  .TopButtons {
+    margin-left: -70px !important;
+  }
+}
+
+.SortButtonWrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Arrow {
+  width: 0;
+  height: 0;
+  display: block;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.ArrowUp {
+  border-bottom: 10px solid $text-light-gray;
+}
+
+.ArrowDown {
+  border-top: 10px solid $text-light-gray;
+}
+
+.ListGroup {
+  height: calc(100vh - 400px);
+  overflow: auto;
+}
+
+.Opacity {
+  opacity: 0.1;
+}

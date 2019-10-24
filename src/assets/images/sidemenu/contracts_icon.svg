@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="24px" viewBox="0 0 21 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>picto</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu/60x60_Contrat_Clic" transform="translate(-20.000000, -18.000000)" stroke="#FFFFFF" stroke-width="0.5">
+            <g id="picto" transform="translate(21.000000, 19.000000)">
+                <path d="M17.8271605,0 L1.17283951,0 C0.525197531,0 0,0.496487355 0,1.10872567 L0,20.8912743 C0,21.5035126 0.525197531,22 1.17283951,22 L17.8271605,22 C18.475037,22 19,21.5035126 19,20.8912743 L19,1.10872567 C19,0.496487355 18.475037,0 17.8271605,0 Z M1.17283951,20.8912743 L17.8271605,20.8912743 L17.8271605,1.10872567 L1.17283951,1.10872567 L1.17283951,20.8912743 Z" id="Fill-1" fill="#FFFFFF"></path>
+                <path d="M4,5 L9,5" id="Path-2" fill="#000000"></path>
+                <path d="M4,10 L14.511898,10" id="Path-2-Copy" fill="#000000"></path>
+                <path d="M10,17 L14.5,17" id="Path-2" fill="#000000" transform="translate(12.250000, 17.000000) scale(1, -1) translate(-12.250000, -17.000000) "></path>
+                <path d="M4,13 L14.511898,13" id="Path-2-Copy" fill="#000000" transform="translate(9.500000, 13.000000) scale(1, -1) translate(-9.500000, -13.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

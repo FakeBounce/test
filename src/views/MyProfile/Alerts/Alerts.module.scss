@@ -1,0 +1,163 @@
+.PersonalInformations {
+  .TabBox {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    .TopBar {
+      display: flex;
+      width: 100%;
+      margin-bottom: 20px;
+      > h4 {
+        color: #1F2B3D;
+        font-size: 16px;
+        font-weight: 300;
+        padding-right: 15px;
+        border-right: 1px solid #4F5561;
+        margin-right: 15px;
+        line-height: 27px;
+        margin-bottom: 0;
+      }
+      button {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      .EditButton {
+        background: url("assets/images/edit.png") no-repeat center;
+        background-size: 29px 26px;
+        padding: 10px 15px;
+        border: 0;
+        border-radius: 2px;
+        &:hover {
+          cursor: pointer;
+        }
+        &:focus, &:active {
+          outline: 0;
+        }
+      }
+      .TextButton {
+        border-radius: 2px;
+        border: 0.6px solid #4F5561;
+        font-size: 12px;
+        background-color: #fff;
+        color: #1F2B3D;
+        padding: 4px 15px;
+        padding-bottom: 3px;
+        &:hover {
+          cursor: pointer;
+        }
+        &:focus, &:active {
+          outline: 0;
+        }
+      }
+    }
+    .DataColumn {
+      h4 {
+        font-size: 14px;
+        color: #9FA9B5;
+        text-align: left;
+        margin-bottom: 15px;
+      }
+      p {
+        color: #1F2B3D;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        letter-spacing: 1px;
+        margin-bottom: 4px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+        padding-left: 0;
+      }
+      input, select {
+        border: 0;
+        background-color: #F5F5F5;
+        margin-bottom: 5px;
+        padding-left: 5px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+        border-radius: 2px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        &:active, &:focus, &:hover {
+          box-shadow: none;
+          background-color: #F5F5F5;
+        }
+      }
+      select {
+        padding-left: 1px;
+      }
+      .Switch {
+        position: relative;
+        display: inline-block;
+        width: 41px;
+        height: 28px;
+        margin-right: 45px;
+        input {
+          display: none;
+          &:checked {
+            + .Slider {
+              background-color: #91C33F;
+              &:before {
+                transform: translateX(17px);
+              }
+              &:after {
+                content: "";
+                height: 22px;
+                width: 22px;
+                position: absolute;
+                right: -40px;
+                top: 0;
+                background: url("assets/images/bell.png") center no-repeat;
+                background-size: 20px 20px;
+              }
+            }
+          }
+        }
+        .Slider {
+          border-radius: 34px;
+          border: 1.5px solid #E5E5EA;
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #fff;
+          transition: .4s;
+          &:before {
+            position: absolute;
+            content: "";
+            height: 29px;
+            width: 29px;
+            border: 0.5px solid rgba(0,0,0,0.04);
+            box-shadow: 0 3px 8px 0 rgba(0,0,0,0.15), 0 1px 1px 0 rgba(0,0,0,0.16), 0 3px 1px 0 rgba(0,0,0,0.1);
+            left: -4px;
+            bottom: 0px;
+            background-color: #fff;
+            transition: .4s;
+            border-radius: 50%;
+          }
+          &:after {
+            content: "";
+            height: 22px;
+            width: 22px;
+            position: absolute;
+            right: -40px;
+            top: 0;
+            background: url("assets/images/bell_disabled.png") center no-repeat;
+            background-size: 20px 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ClickTextCursor{
+  cursor: pointer;
+}
+
+.Select {
+  cursor: pointer;
+  color: #5696FF;
+}

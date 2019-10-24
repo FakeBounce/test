@@ -1,0 +1,56 @@
+.chartCard{
+    background-color: rgba(51, 61, 126, 0.06);
+    width: 49.5%;
+    float: left;
+
+    .chartHeader{
+        width: 100%;
+        text-transform: uppercase;
+        text-align: left;
+        padding: 5px;
+        color: #212D40;
+        font-size: 15px;
+    }
+
+    .chartBody{
+        width: 100%;
+        padding: 1%;
+        .gridContainer{
+            width: 100%;
+            font-size: 12px;
+            overflow-y: auto;
+            padding: 10px;
+            max-height: 200px;
+            .libelle{
+                float: left;
+                width: 80%;
+            }
+            .tonnage{
+                float: right;
+                width: 20%;
+            }
+        }
+        .columnLeft{
+            float: left;
+            width: 50%;
+        }
+        .columnRight{
+            float: right;
+            width: 50%;
+        }
+    }
+}
+
+.sameHeightColumn{
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.pullRight{
+    float: right;
+}
+

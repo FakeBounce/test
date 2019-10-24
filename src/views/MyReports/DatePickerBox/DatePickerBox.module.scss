@@ -1,0 +1,53 @@
+.ButtonsBox {
+  display: flex;
+  margin-right: 10px;
+  label {
+    display: flex;
+    align-self: center;
+    margin-right: 10px;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    color: #8C929C;
+    &:first-child {
+      margin-left: 20px;
+    }
+  }
+  > button {
+    &:last-child {
+      margin-right: 0;
+    }
+    &:global(.btn.btn-secondary.btn-lg) {
+      border-radius: 2px;
+      background-color: #5696FF;
+      color: #fff;
+      font-size: 14px;
+      line-height: 17px;
+      min-height: 50px;
+      border: 0;
+      margin-right: 5px;
+      &:hover, &:active, &:focus {
+        background-color: #5696FF;
+        box-shadow: none;
+      }
+    }
+  }
+  .BigInput {
+    margin-right: 10px;
+    border-radius: 0;
+    padding: 12px 20px;
+    height: initial;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+    width: 140px;
+    border: 0;
+  }
+  div {
+    &:global(.react-datepicker-popper) {
+      left: -120px !important;
+      div {
+        &:global(.react-datepicker__triangle) {
+          left: 180px;
+        }
+      }
+    }
+  }
+}

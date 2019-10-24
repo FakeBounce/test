@@ -1,0 +1,77 @@
+.Container {
+  > span {
+    display: block;
+    text-align: left;   
+    //margin-top: 21px;
+  }
+  .ActiveGroup {
+    label {
+      position: absolute;
+      height: 0;
+      margin: 0;
+      z-index: 4;
+      color: #1F2B3D;
+      font-size: 10px;
+      left: 14px;
+      top: 10px;
+      opacity: 0;
+      transition: opacity .5s, top .5s;
+      pointer-events: none;
+    }
+    input {
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+      background-position: 10px 8px;
+      padding-top: 13px;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.12);
+      border-radius: 2px;
+      font-size: 14px;
+      &:valid {
+        +label {
+          top: 3px;
+          opacity: .7;
+        }
+      }
+      &:focus {
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.12);
+        border-color: rgb(206, 212, 218);
+        &::placeholder {
+          opacity: 0;
+        }
+        +label {
+          top: 3px;
+          opacity: .7;
+        }
+      }
+      &.error  {
+        background-color: #F7EAEA;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.12);
+      }
+    }
+  }
+  .ErrorMessage {
+    position: absolute;
+    //bottom: -20px;
+    font-size: 11px;
+    color: #E36065;
+    margin: 0;
+    margin-left: 27px;
+    margin-top: -16px;
+  }
+  .ButtonsContainer {
+    display: flex;
+    justify-content: space-between;
+    button {
+      //margin-top: 30px;
+      margin-top: 0px;
+      &:first-child {
+        margin-right: 10px;
+      }
+    }
+    .BackButton {
+      background-color: transparent;
+      border: 1px solid #1F2B3D;
+      color: #1F2B3D;
+    }
+  }
+}

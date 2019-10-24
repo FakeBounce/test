@@ -1,0 +1,924 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing FileInformationModal component renders as expected with parameters (as closed) 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FileInformationModal
+    creationDate={2017-10-10T00:00:00.000Z}
+    isOpen={false}
+    lastUpdateDate={2017-10-10T00:00:00.000Z}
+    title="Title"
+    toggle={[Function]}
+    username="Username"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "ModalFooterContent": [Function],
+      "children": Array [
+        <p
+          className={undefined}
+>
+          Créé par : 
+          <span>
+                    Username
+          </span>
+</p>,
+        <p
+          className={undefined}
+>
+          Date de création : 
+          <span>
+                    2017-10-10T00:00:00.000Z
+          </span>
+</p>,
+        <p
+          className={undefined}
+>
+          Date de dernière modification : 
+          <span>
+                    2017-10-10T00:00:00.000Z
+          </span>
+</p>,
+      ],
+      "className": "NewFileModal",
+      "creationDate": 2017-10-10T00:00:00.000Z,
+      "isOpen": false,
+      "lastUpdateDate": 2017-10-10T00:00:00.000Z,
+      "title": "Title",
+      "toggle": [Function],
+      "username": "Username",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Créé par : ",
+            <span>
+              Username
+</span>,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          "Créé par : ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Username",
+            },
+            "ref": null,
+            "rendered": "Username",
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Date de création : ",
+            <span>
+              2017-10-10T00:00:00.000Z
+</span>,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          "Date de création : ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 2017-10-10T00:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": 2017-10-10T00:00:00.000Z,
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Date de dernière modification : ",
+            <span>
+              2017-10-10T00:00:00.000Z
+</span>,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          "Date de dernière modification : ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 2017-10-10T00:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": 2017-10-10T00:00:00.000Z,
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "ModalFooterContent": [Function],
+        "children": Array [
+          <p
+            className={undefined}
+>
+            Créé par : 
+            <span>
+                        Username
+            </span>
+</p>,
+          <p
+            className={undefined}
+>
+            Date de création : 
+            <span>
+                        2017-10-10T00:00:00.000Z
+            </span>
+</p>,
+          <p
+            className={undefined}
+>
+            Date de dernière modification : 
+            <span>
+                        2017-10-10T00:00:00.000Z
+            </span>
+</p>,
+        ],
+        "className": "NewFileModal",
+        "creationDate": 2017-10-10T00:00:00.000Z,
+        "isOpen": false,
+        "lastUpdateDate": 2017-10-10T00:00:00.000Z,
+        "title": "Title",
+        "toggle": [Function],
+        "username": "Username",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Créé par : ",
+              <span>
+                Username
+</span>,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            "Créé par : ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Username",
+              },
+              "ref": null,
+              "rendered": "Username",
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Date de création : ",
+              <span>
+                2017-10-10T00:00:00.000Z
+</span>,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            "Date de création : ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 2017-10-10T00:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": 2017-10-10T00:00:00.000Z,
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Date de dernière modification : ",
+              <span>
+                2017-10-10T00:00:00.000Z
+</span>,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            "Date de dernière modification : ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 2017-10-10T00:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": 2017-10-10T00:00:00.000Z,
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Array [],
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Testing FileInformationModal component renders as expected with parameters (as open) 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FileInformationModal
+    creationDate={2017-10-10T00:00:00.000Z}
+    isOpen={true}
+    lastUpdateDate={2017-10-10T00:00:00.000Z}
+    title="Title"
+    toggle={[Function]}
+    username="Username"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "ModalFooterContent": [Function],
+      "children": Array [
+        <p
+          className={undefined}
+>
+          Créé par : 
+          <span>
+                    Username
+          </span>
+</p>,
+        <p
+          className={undefined}
+>
+          Date de création : 
+          <span>
+                    2017-10-10T00:00:00.000Z
+          </span>
+</p>,
+        <p
+          className={undefined}
+>
+          Date de dernière modification : 
+          <span>
+                    2017-10-10T00:00:00.000Z
+          </span>
+</p>,
+      ],
+      "className": "NewFileModal",
+      "creationDate": 2017-10-10T00:00:00.000Z,
+      "isOpen": true,
+      "lastUpdateDate": 2017-10-10T00:00:00.000Z,
+      "title": "Title",
+      "toggle": [Function],
+      "username": "Username",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Créé par : ",
+            <span>
+              Username
+</span>,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          "Créé par : ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Username",
+            },
+            "ref": null,
+            "rendered": "Username",
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Date de création : ",
+            <span>
+              2017-10-10T00:00:00.000Z
+</span>,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          "Date de création : ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 2017-10-10T00:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": 2017-10-10T00:00:00.000Z,
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Date de dernière modification : ",
+            <span>
+              2017-10-10T00:00:00.000Z
+</span>,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          "Date de dernière modification : ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 2017-10-10T00:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": 2017-10-10T00:00:00.000Z,
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "ModalFooterContent": [Function],
+        "children": Array [
+          <p
+            className={undefined}
+>
+            Créé par : 
+            <span>
+                        Username
+            </span>
+</p>,
+          <p
+            className={undefined}
+>
+            Date de création : 
+            <span>
+                        2017-10-10T00:00:00.000Z
+            </span>
+</p>,
+          <p
+            className={undefined}
+>
+            Date de dernière modification : 
+            <span>
+                        2017-10-10T00:00:00.000Z
+            </span>
+</p>,
+        ],
+        "className": "NewFileModal",
+        "creationDate": 2017-10-10T00:00:00.000Z,
+        "isOpen": true,
+        "lastUpdateDate": 2017-10-10T00:00:00.000Z,
+        "title": "Title",
+        "toggle": [Function],
+        "username": "Username",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Créé par : ",
+              <span>
+                Username
+</span>,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            "Créé par : ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Username",
+              },
+              "ref": null,
+              "rendered": "Username",
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Date de création : ",
+              <span>
+                2017-10-10T00:00:00.000Z
+</span>,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            "Date de création : ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 2017-10-10T00:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": 2017-10-10T00:00:00.000Z,
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Date de dernière modification : ",
+              <span>
+                2017-10-10T00:00:00.000Z
+</span>,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            "Date de dernière modification : ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 2017-10-10T00:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": 2017-10-10T00:00:00.000Z,
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Array [],
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Testing FileInformationModal component renders as expected without parameters 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FileInformationModal />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "ModalFooterContent": [Function],
+      "children": Array [
+        <p
+          className={undefined}
+>
+          Créé par : 
+          <span />
+</p>,
+        <p
+          className={undefined}
+>
+          Date de création : 
+          <span />
+</p>,
+        <p
+          className={undefined}
+>
+          Date de dernière modification : 
+          <span />
+</p>,
+      ],
+      "className": "NewFileModal",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Créé par : ",
+            <span />,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          "Créé par : ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Date de création : ",
+            <span />,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          "Date de création : ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Date de dernière modification : ",
+            <span />,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          "Date de dernière modification : ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "ModalFooterContent": [Function],
+        "children": Array [
+          <p
+            className={undefined}
+>
+            Créé par : 
+            <span />
+</p>,
+          <p
+            className={undefined}
+>
+            Date de création : 
+            <span />
+</p>,
+          <p
+            className={undefined}
+>
+            Date de dernière modification : 
+            <span />
+</p>,
+        ],
+        "className": "NewFileModal",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Créé par : ",
+              <span />,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            "Créé par : ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Date de création : ",
+              <span />,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            "Date de création : ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Date de dernière modification : ",
+              <span />,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            "Date de dernière modification : ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+          ],
+          "type": "p",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Array [],
+  Symbol(enzyme.__childContext__): null,
+}
+`;

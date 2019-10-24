@@ -1,0 +1,73 @@
+.MonthList {
+  border-radius: 0;
+  height: calc(100vh - 190px);
+  overflow: auto;
+  > li {
+    margin-bottom: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+    height: 37px;
+    padding: 0px;
+    justify-content: center;
+    &:hover {
+      cursor: pointer;
+    }
+    &:first-child {
+      border-radius: 0;
+    }
+    &:global(.active) {
+      background-color: #b0cdfc;
+      border-color: #b0cdfc;
+    }
+    &:global(.active) > .Label {
+      background-color: #5696ff;
+    }
+    .weight {
+      margin-top: 0.45rem;
+      @media (max-width: 1024px) {
+        font-size: 14px;
+      }
+    }
+    .Label {
+      width: 40px;
+      border-radius: 2px 0 0 2px;
+      background-color: rgba(31, 43, 61, 0.8);
+      display: inline-flex;
+      height: 100%;
+      float: left;
+      top: 0;
+      left: 0;
+      flex-direction: column;
+      padding-top: 3px;
+      > span {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        line-height: 14px;
+        color: #fff;
+      }
+    }
+  }
+  .DisabledLi {
+    background-color: #e8e8e8;
+  }
+}
+
+.dropdownYearContainer {
+  text-align: left;
+  display: inline-block;
+  .drop {
+    margin-top: 7px;
+    height: 35px;
+    border: none;
+    background-color: #5696ff !important;
+    margin-bottom: 10px;
+  }
+}
+
+.displayedYear {
+  margin-left: 5px;
+}
+
+.pullLeft {
+  text-align: left;
+}

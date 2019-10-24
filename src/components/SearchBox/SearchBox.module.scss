@@ -1,0 +1,42 @@
+.SearchBox {
+  max-width: 700px;
+  width: 100%;
+  margin-right: 10px;
+  div {
+    &:global(.input-group) {
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+      input {
+        border-radius: 0;
+        padding: 12px 20px;
+        height: initial;
+        border: none; 
+        &:focus, &:active, &:hover {
+          box-shadow: none;
+        }
+      }
+      button {
+        border-radius: 0;
+        text-transform: uppercase;
+        border: 0;
+        background: url("assets/images/search_white_icon.png") no-repeat center #5696FF;
+        opacity: 0.8;
+        background-size: 25px 22px;
+        width: 60px;
+        &:global(.btn.btn-secondary) {
+          &:hover, &:active, &:focus {
+            box-shadow: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .SearchBox {
+    width: 80%!important;
+  }
+  .SearchBoxInput {
+    height: 50px;
+  }
+}

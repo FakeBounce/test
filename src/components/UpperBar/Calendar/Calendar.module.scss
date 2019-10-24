@@ -1,0 +1,31 @@
+@import '~common/styles/variables';
+.CalendarContainer {
+  border-right: 1px solid rgba(151, 151, 151, 0.54);
+  order: 1;
+  display: flex;
+  align-items: center;
+}
+
+.CalendarContainer > div {
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  padding-right: 15px;
+}
+
+.CalendarContainer > div > p {
+  // font-size: 12px;
+  // color: $marine-blue;
+  margin: 0;
+  color: #9FA9B5;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: normal;
+  &:first-child {
+    text-transform: capitalize;
+  }
+
+  
+}

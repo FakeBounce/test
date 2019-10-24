@@ -1,0 +1,1250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing SideMenu component renders as expected 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SideMenu />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <a
+          href="https://www.paprec.com/undefined"
+          target="_blank"
+>
+          <Media
+                    className={undefined}
+                    object={true}
+                    src="atome.svg"
+          />
+</a>,
+        <Nav
+          className={undefined}
+          tag="ul"
+          vertical={false}
+>
+          <NavItem
+                    className={undefined}
+                    tag="li"
+          >
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              href="/home"
+                              to="/home"
+                    >
+                              <div
+                                        className={undefined}
+                              />
+                              ACCUEIL
+                    </NavLink>
+          </NavItem>
+          <NavItem
+                    className={undefined}
+                    tag="li"
+          >
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              href="/myContracts"
+                              to="/myContracts"
+                    >
+                              <div
+                                        className={undefined}
+                              />
+                              MES CONTRATS
+                    </NavLink>
+          </NavItem>
+          <NavItem
+                    className={undefined}
+                    tag="li"
+          >
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              href="/myFiles"
+                              to="/myFiles"
+                    >
+                              <div
+                                        className={undefined}
+                              />
+                              MES DOCUMENTS 
+                               EN LIGNE
+                    </NavLink>
+          </NavItem>
+          <NavItem
+                    className={undefined}
+                    tag="li"
+          >
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              href="/myRemovals"
+                              to="/myRemovals"
+                    >
+                              <div
+                                        className={undefined}
+                              />
+                              MES ENLÈVEMENTS
+                    </NavLink>
+          </NavItem>
+          <NavItem
+                    className={undefined}
+                    tag="li"
+          >
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              href="/myReports"
+                              to="/myReports"
+                    >
+                              <div
+                                        className={undefined}
+                              />
+                              MES REPORTINGS
+                    </NavLink>
+          </NavItem>
+          <NavItem
+                    className={undefined}
+                    tag="li"
+          >
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              href="/myCollaborativeSpace"
+                              to="/myCollaborativeSpace"
+                    >
+                              <div
+                                        className={undefined}
+                              />
+                              MON ESPACE COLLABORATIF
+                    </NavLink>
+          </NavItem>
+</Nav>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Media
+            className={undefined}
+            object={true}
+            src="atome.svg"
+/>,
+          "href": "https://www.paprec.com/undefined",
+          "target": "_blank",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "className": undefined,
+            "object": true,
+            "src": "atome.svg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <NavItem
+              className={undefined}
+              tag="li"
+>
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            href="/home"
+                            to="/home"
+              >
+                            <div
+                                          className={undefined}
+                            />
+                            ACCUEIL
+              </NavLink>
+</NavItem>,
+            <NavItem
+              className={undefined}
+              tag="li"
+>
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            href="/myContracts"
+                            to="/myContracts"
+              >
+                            <div
+                                          className={undefined}
+                            />
+                            MES CONTRATS
+              </NavLink>
+</NavItem>,
+            <NavItem
+              className={undefined}
+              tag="li"
+>
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            href="/myFiles"
+                            to="/myFiles"
+              >
+                            <div
+                                          className={undefined}
+                            />
+                            MES DOCUMENTS 
+                             EN LIGNE
+              </NavLink>
+</NavItem>,
+            <NavItem
+              className={undefined}
+              tag="li"
+>
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            href="/myRemovals"
+                            to="/myRemovals"
+              >
+                            <div
+                                          className={undefined}
+                            />
+                            MES ENLÈVEMENTS
+              </NavLink>
+</NavItem>,
+            <NavItem
+              className={undefined}
+              tag="li"
+>
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            href="/myReports"
+                            to="/myReports"
+              >
+                            <div
+                                          className={undefined}
+                            />
+                            MES REPORTINGS
+              </NavLink>
+</NavItem>,
+            <NavItem
+              className={undefined}
+              tag="li"
+>
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            href="/myCollaborativeSpace"
+                            to="/myCollaborativeSpace"
+              >
+                            <div
+                                          className={undefined}
+                            />
+                            MON ESPACE COLLABORATIF
+              </NavLink>
+</NavItem>,
+          ],
+          "className": undefined,
+          "tag": "ul",
+          "vertical": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                href="/home"
+                to="/home"
+>
+                <div
+                                className={undefined}
+                />
+                ACCUEIL
+</NavLink>,
+              "className": undefined,
+              "tag": "li",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": Array [
+                  <div
+                    className={undefined}
+/>,
+                  "ACCUEIL",
+                ],
+                "href": "/home",
+                "to": "/home",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                "ACCUEIL",
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                href="/myContracts"
+                to="/myContracts"
+>
+                <div
+                                className={undefined}
+                />
+                MES CONTRATS
+</NavLink>,
+              "className": undefined,
+              "tag": "li",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": Array [
+                  <div
+                    className={undefined}
+/>,
+                  "MES CONTRATS",
+                ],
+                "href": "/myContracts",
+                "to": "/myContracts",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                "MES CONTRATS",
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                href="/myFiles"
+                to="/myFiles"
+>
+                <div
+                                className={undefined}
+                />
+                MES DOCUMENTS 
+                 EN LIGNE
+</NavLink>,
+              "className": undefined,
+              "tag": "li",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": Array [
+                  <div
+                    className={undefined}
+/>,
+                  "MES DOCUMENTS 
+ EN LIGNE",
+                ],
+                "href": "/myFiles",
+                "to": "/myFiles",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                "MES DOCUMENTS 
+ EN LIGNE",
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                href="/myRemovals"
+                to="/myRemovals"
+>
+                <div
+                                className={undefined}
+                />
+                MES ENLÈVEMENTS
+</NavLink>,
+              "className": undefined,
+              "tag": "li",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": Array [
+                  <div
+                    className={undefined}
+/>,
+                  "MES ENLÈVEMENTS",
+                ],
+                "href": "/myRemovals",
+                "to": "/myRemovals",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                "MES ENLÈVEMENTS",
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                href="/myReports"
+                to="/myReports"
+>
+                <div
+                                className={undefined}
+                />
+                MES REPORTINGS
+</NavLink>,
+              "className": undefined,
+              "tag": "li",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": Array [
+                  <div
+                    className={undefined}
+/>,
+                  "MES REPORTINGS",
+                ],
+                "href": "/myReports",
+                "to": "/myReports",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                "MES REPORTINGS",
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <NavLink
+                activeClassName="active"
+                aria-current="page"
+                href="/myCollaborativeSpace"
+                to="/myCollaborativeSpace"
+>
+                <div
+                                className={undefined}
+                />
+                MON ESPACE COLLABORATIF
+</NavLink>,
+              "className": undefined,
+              "tag": "li",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": Array [
+                  <div
+                    className={undefined}
+/>,
+                  "MON ESPACE COLLABORATIF",
+                ],
+                "href": "/myCollaborativeSpace",
+                "to": "/myCollaborativeSpace",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                "MON ESPACE COLLABORATIF",
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <a
+            href="https://www.paprec.com/undefined"
+            target="_blank"
+>
+            <Media
+                        className={undefined}
+                        object={true}
+                        src="atome.svg"
+            />
+</a>,
+          <Nav
+            className={undefined}
+            tag="ul"
+            vertical={false}
+>
+            <NavItem
+                        className={undefined}
+                        tag="li"
+            >
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    href="/home"
+                                    to="/home"
+                        >
+                                    <div
+                                                className={undefined}
+                                    />
+                                    ACCUEIL
+                        </NavLink>
+            </NavItem>
+            <NavItem
+                        className={undefined}
+                        tag="li"
+            >
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    href="/myContracts"
+                                    to="/myContracts"
+                        >
+                                    <div
+                                                className={undefined}
+                                    />
+                                    MES CONTRATS
+                        </NavLink>
+            </NavItem>
+            <NavItem
+                        className={undefined}
+                        tag="li"
+            >
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    href="/myFiles"
+                                    to="/myFiles"
+                        >
+                                    <div
+                                                className={undefined}
+                                    />
+                                    MES DOCUMENTS 
+                                     EN LIGNE
+                        </NavLink>
+            </NavItem>
+            <NavItem
+                        className={undefined}
+                        tag="li"
+            >
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    href="/myRemovals"
+                                    to="/myRemovals"
+                        >
+                                    <div
+                                                className={undefined}
+                                    />
+                                    MES ENLÈVEMENTS
+                        </NavLink>
+            </NavItem>
+            <NavItem
+                        className={undefined}
+                        tag="li"
+            >
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    href="/myReports"
+                                    to="/myReports"
+                        >
+                                    <div
+                                                className={undefined}
+                                    />
+                                    MES REPORTINGS
+                        </NavLink>
+            </NavItem>
+            <NavItem
+                        className={undefined}
+                        tag="li"
+            >
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    href="/myCollaborativeSpace"
+                                    to="/myCollaborativeSpace"
+                        >
+                                    <div
+                                                className={undefined}
+                                    />
+                                    MON ESPACE COLLABORATIF
+                        </NavLink>
+            </NavItem>
+</Nav>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Media
+              className={undefined}
+              object={true}
+              src="atome.svg"
+/>,
+            "href": "https://www.paprec.com/undefined",
+            "target": "_blank",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": undefined,
+              "object": true,
+              "src": "atome.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <NavItem
+                className={undefined}
+                tag="li"
+>
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                href="/home"
+                                to="/home"
+                >
+                                <div
+                                                className={undefined}
+                                />
+                                ACCUEIL
+                </NavLink>
+</NavItem>,
+              <NavItem
+                className={undefined}
+                tag="li"
+>
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                href="/myContracts"
+                                to="/myContracts"
+                >
+                                <div
+                                                className={undefined}
+                                />
+                                MES CONTRATS
+                </NavLink>
+</NavItem>,
+              <NavItem
+                className={undefined}
+                tag="li"
+>
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                href="/myFiles"
+                                to="/myFiles"
+                >
+                                <div
+                                                className={undefined}
+                                />
+                                MES DOCUMENTS 
+                                 EN LIGNE
+                </NavLink>
+</NavItem>,
+              <NavItem
+                className={undefined}
+                tag="li"
+>
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                href="/myRemovals"
+                                to="/myRemovals"
+                >
+                                <div
+                                                className={undefined}
+                                />
+                                MES ENLÈVEMENTS
+                </NavLink>
+</NavItem>,
+              <NavItem
+                className={undefined}
+                tag="li"
+>
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                href="/myReports"
+                                to="/myReports"
+                >
+                                <div
+                                                className={undefined}
+                                />
+                                MES REPORTINGS
+                </NavLink>
+</NavItem>,
+              <NavItem
+                className={undefined}
+                tag="li"
+>
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                href="/myCollaborativeSpace"
+                                to="/myCollaborativeSpace"
+                >
+                                <div
+                                                className={undefined}
+                                />
+                                MON ESPACE COLLABORATIF
+                </NavLink>
+</NavItem>,
+            ],
+            "className": undefined,
+            "tag": "ul",
+            "vertical": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  href="/home"
+                  to="/home"
+>
+                  <div
+                                    className={undefined}
+                  />
+                  ACCUEIL
+</NavLink>,
+                "className": undefined,
+                "tag": "li",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": Array [
+                    <div
+                      className={undefined}
+/>,
+                    "ACCUEIL",
+                  ],
+                  "href": "/home",
+                  "to": "/home",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                  "ACCUEIL",
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  href="/myContracts"
+                  to="/myContracts"
+>
+                  <div
+                                    className={undefined}
+                  />
+                  MES CONTRATS
+</NavLink>,
+                "className": undefined,
+                "tag": "li",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": Array [
+                    <div
+                      className={undefined}
+/>,
+                    "MES CONTRATS",
+                  ],
+                  "href": "/myContracts",
+                  "to": "/myContracts",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                  "MES CONTRATS",
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  href="/myFiles"
+                  to="/myFiles"
+>
+                  <div
+                                    className={undefined}
+                  />
+                  MES DOCUMENTS 
+                   EN LIGNE
+</NavLink>,
+                "className": undefined,
+                "tag": "li",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": Array [
+                    <div
+                      className={undefined}
+/>,
+                    "MES DOCUMENTS 
+ EN LIGNE",
+                  ],
+                  "href": "/myFiles",
+                  "to": "/myFiles",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                  "MES DOCUMENTS 
+ EN LIGNE",
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  href="/myRemovals"
+                  to="/myRemovals"
+>
+                  <div
+                                    className={undefined}
+                  />
+                  MES ENLÈVEMENTS
+</NavLink>,
+                "className": undefined,
+                "tag": "li",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": Array [
+                    <div
+                      className={undefined}
+/>,
+                    "MES ENLÈVEMENTS",
+                  ],
+                  "href": "/myRemovals",
+                  "to": "/myRemovals",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                  "MES ENLÈVEMENTS",
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  href="/myReports"
+                  to="/myReports"
+>
+                  <div
+                                    className={undefined}
+                  />
+                  MES REPORTINGS
+</NavLink>,
+                "className": undefined,
+                "tag": "li",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": Array [
+                    <div
+                      className={undefined}
+/>,
+                    "MES REPORTINGS",
+                  ],
+                  "href": "/myReports",
+                  "to": "/myReports",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                  "MES REPORTINGS",
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  href="/myCollaborativeSpace"
+                  to="/myCollaborativeSpace"
+>
+                  <div
+                                    className={undefined}
+                  />
+                  MON ESPACE COLLABORATIF
+</NavLink>,
+                "className": undefined,
+                "tag": "li",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": Array [
+                    <div
+                      className={undefined}
+/>,
+                    "MON ESPACE COLLABORATIF",
+                  ],
+                  "href": "/myCollaborativeSpace",
+                  "to": "/myCollaborativeSpace",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                  "MON ESPACE COLLABORATIF",
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Array [],
+  Symbol(enzyme.__childContext__): null,
+}
+`;

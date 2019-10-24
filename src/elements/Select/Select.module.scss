@@ -1,0 +1,15 @@
+.Container {
+  height: 100%;
+  div {
+    &:global(.form-group) {
+      margin-bottom: 0;
+      select {
+        padding: 12px 20px;
+        height: initial;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+        border-radius: 2px;
+        border: 0;
+      }
+    }
+  }
+}

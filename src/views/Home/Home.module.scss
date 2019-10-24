@@ -1,0 +1,36 @@
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
+  ::-webkit-scrollbar {
+    width:  $size;
+    height: $size;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+  }
+  ::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+  scrollbar-face-color: $foreground-color;
+  scrollbar-track-color: $background-color;
+}
+
+.DashboardBox {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.12);
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  padding: 15px;
+  margin-bottom: 0px;
+  h4 {
+    color: #1F2B3D;
+    letter-spacing: 0.58px;
+    font-size: 15px;	
+    font-weight: 500;	
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+.contactRow{
+  height: 133px;
+}

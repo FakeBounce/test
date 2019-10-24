@@ -1,0 +1,91 @@
+.ButtonsBox {
+  display: flex;
+  button {
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    min-height: 50px;
+    border: 10px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    &:global(.btn.btn-secondary.btn-lg) {
+      &:hover, &:active, &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+  .NewButton {
+    background-color: #5696FF;
+    &:global(.btn.btn-secondary) {
+      &:hover, &:active, &:focus {
+        background-color: #5696FF;
+        box-shadow: none;
+      }
+    }
+  }
+  .NewFolder {
+    background-color: #5696FF;
+    &:global(.btn.btn-secondary) {
+      &:hover, &:active, &:focus {
+        background-color: #5696FF;
+        box-shadow: none;
+      }
+    }
+  }
+  .NewFile {
+    background-color: #5696FF;
+    &:global(.btn.btn-secondary) {
+      &:hover, &:active, &:focus {
+        background-color: #5696FF;
+        box-shadow: none;
+      }
+    }
+  }
+  .DownloadButton {
+    background: url("assets/images/download_white_icon.png") no-repeat center #5696FF;
+    background-size: 45px 45px;
+    width: 60px;
+    &:global(.btn.btn-secondary) {
+      &:hover, &:active, &:focus {
+        background-color: #5696FF;
+        box-shadow: none;
+      }
+    }
+  }
+  div {
+    &:global(.dropdown-menu) {
+      border-radius: 2px;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
+      padding: 0 5px;
+      button {
+        &:global(.dropdown-item) {
+          border-bottom: 1px solid #E4E4E4;
+          color: #9FA9B5;
+          font-size: 14px;
+          letter-spacing: 1px;
+          margin-bottom: 0;
+          &:hover, &:active, &:focus {
+            outline: 0;
+            cursor: pointer;
+          }
+          &:last-child {
+            border-bottom: 0;
+          }
+        }
+      }
+      .File {
+        background: url("assets/images/download_file_icon.png") no-repeat center;
+        background-size: 25px 25px;
+        background-position: 6px 12px;
+        padding-left: 40px;
+      }
+      .Directory {
+        background: url("assets/images/folder_icon.png") no-repeat center;
+        background-size: 25px 24px;
+        background-position: 7px 12px;
+        padding-left: 40px;
+      }
+    }
+  }
+}

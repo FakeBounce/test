@@ -1,0 +1,98 @@
+@import '~common/styles/variables';
+.LoggedInPersonContainer {
+  border-right: 1px solid rgba(151, 151, 151, 0.54);
+  order: 2;
+  position: relative;
+  .Avatar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: #91C33F;
+    border-radius: 50%;
+    overflow: hidden;
+    > span {
+      font-size: 12.32px;
+      letter-spacing: 0.62px;
+      color: #FFFFFF;
+      margin-top: 12px;
+      display: block;
+    }
+    > img {
+      max-height: 40px;
+    }
+  }
+  .UserDropdown {
+    > span {
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: $marine-blue;
+      padding: 0 25px 0 65px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    > div {
+      margin-top: 0;
+      border-radius: 0;
+      width: 229px;
+      min-width: initial;
+      margin-left: -1px;
+      z-index: -1;
+      border-top: 0;
+      padding: 15px;
+      > p {
+        text-align: left;
+        color: #1F2B3D;
+        font-size: 15px;
+        letter-spacing: 0.13px;
+        line-height: 18px;
+        margin-bottom: 7px;
+      }
+      > span {
+        display: block;
+        font-size: 12px;
+        letter-spacing: 0.1px;
+        color: #757575;
+      }
+    }
+    .ButtonsContainer {
+      display: flex;
+      margin-top: 15px;
+      a {
+        &:global(.nav-link) {
+          padding: 0;
+        }
+      }
+      button {
+        margin-right: 5px;
+        height: 30px;
+        width: 30px;
+        border: 0;
+        &:global(.btn.btn-secondary) {
+          &:focus, &:active {
+            border: 0;
+            box-shadow: none;
+            background-color: transparent;
+          }
+        }
+      }
+      button.Edit {
+        background: url("assets/images/edit.png") no-repeat center;
+        background-size: 29px 26px;
+      }
+      button.Alert {
+        background: url("assets/images/alert.png") no-repeat center;
+        background-size: 28px 26px;
+      }
+      button.Logout {
+        background: url("assets/images/logout.png") no-repeat center;
+        background-size: 27px 26px;
+      }
+    }
+  }
+}

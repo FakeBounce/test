@@ -1,0 +1,1169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing FormModal component renders as expected with parameters (as closed) 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FormModal
+    isOpen={false}
+    setClick={[Function]}
+    title="Title"
+    toggle={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "ModalFooterContent": [Function],
+      "children": Array [
+        <InputElement
+          inputValue={[Function]}
+          placeholder="Prénom"
+/>,
+        <p
+          className={undefined}
+          hidden={true}
+>
+          Obligatoire
+</p>,
+        <InputElement
+          inputValue={[Function]}
+          placeholder="Nom"
+/>,
+        <p
+          className={undefined}
+          hidden={true}
+>
+          Obligatoire
+</p>,
+        <InputElement
+          inputValue={[Function]}
+          placeholder="Adresse e-mail"
+/>,
+        <p
+          className={undefined}
+          hidden={true}
+>
+          Obligatoire
+</p>,
+        <p
+          className="undefined undefined"
+          hidden={true}
+>
+          Le format de l'adresse email n'est pas valide.
+</p>,
+        <InputElement
+          inputValue={[Function]}
+          placeholder="Fonction"
+/>,
+        <p
+          className={undefined}
+          hidden={true}
+>
+          Obligatoire
+</p>,
+        <InputElement
+          inputValue={[Function]}
+          placeholder="Numéro de téléphone"
+/>,
+        <p
+          className={undefined}
+          hidden={true}
+>
+          Obligatoire
+</p>,
+        <p
+          className="undefined undefined"
+          hidden={true}
+>
+          Format de numéro erroné
+</p>,
+        <SelectElement
+          selectedOption={[Function]}
+          setOptions={undefined}
+/>,
+        <p
+          className="undefined undefined"
+          hidden={true}
+>
+          Obligatoire
+</p>,
+      ],
+      "className": "FormModal undefined",
+      "isOpen": false,
+      "setClick": [Function],
+      "title": "Title",
+      "toggle": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "inputValue": [Function],
+          "placeholder": "Prénom",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Obligatoire",
+          "className": undefined,
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Obligatoire",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "inputValue": [Function],
+          "placeholder": "Nom",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Obligatoire",
+          "className": undefined,
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Obligatoire",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "inputValue": [Function],
+          "placeholder": "Adresse e-mail",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Obligatoire",
+          "className": undefined,
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Obligatoire",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Le format de l'adresse email n'est pas valide.",
+          "className": "undefined undefined",
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Le format de l'adresse email n'est pas valide.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "inputValue": [Function],
+          "placeholder": "Fonction",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Obligatoire",
+          "className": undefined,
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Obligatoire",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "inputValue": [Function],
+          "placeholder": "Numéro de téléphone",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Obligatoire",
+          "className": undefined,
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Obligatoire",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Format de numéro erroné",
+          "className": "undefined undefined",
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Format de numéro erroné",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "selectedOption": [Function],
+          "setOptions": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Obligatoire",
+          "className": "undefined undefined",
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Obligatoire",
+        "type": "p",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "ModalFooterContent": [Function],
+        "children": Array [
+          <InputElement
+            inputValue={[Function]}
+            placeholder="Prénom"
+/>,
+          <p
+            className={undefined}
+            hidden={true}
+>
+            Obligatoire
+</p>,
+          <InputElement
+            inputValue={[Function]}
+            placeholder="Nom"
+/>,
+          <p
+            className={undefined}
+            hidden={true}
+>
+            Obligatoire
+</p>,
+          <InputElement
+            inputValue={[Function]}
+            placeholder="Adresse e-mail"
+/>,
+          <p
+            className={undefined}
+            hidden={true}
+>
+            Obligatoire
+</p>,
+          <p
+            className="undefined undefined"
+            hidden={true}
+>
+            Le format de l'adresse email n'est pas valide.
+</p>,
+          <InputElement
+            inputValue={[Function]}
+            placeholder="Fonction"
+/>,
+          <p
+            className={undefined}
+            hidden={true}
+>
+            Obligatoire
+</p>,
+          <InputElement
+            inputValue={[Function]}
+            placeholder="Numéro de téléphone"
+/>,
+          <p
+            className={undefined}
+            hidden={true}
+>
+            Obligatoire
+</p>,
+          <p
+            className="undefined undefined"
+            hidden={true}
+>
+            Format de numéro erroné
+</p>,
+          <SelectElement
+            selectedOption={[Function]}
+            setOptions={undefined}
+/>,
+          <p
+            className="undefined undefined"
+            hidden={true}
+>
+            Obligatoire
+</p>,
+        ],
+        "className": "FormModal undefined",
+        "isOpen": false,
+        "setClick": [Function],
+        "title": "Title",
+        "toggle": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "inputValue": [Function],
+            "placeholder": "Prénom",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Obligatoire",
+            "className": undefined,
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Obligatoire",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "inputValue": [Function],
+            "placeholder": "Nom",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Obligatoire",
+            "className": undefined,
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Obligatoire",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "inputValue": [Function],
+            "placeholder": "Adresse e-mail",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Obligatoire",
+            "className": undefined,
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Obligatoire",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Le format de l'adresse email n'est pas valide.",
+            "className": "undefined undefined",
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Le format de l'adresse email n'est pas valide.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "inputValue": [Function],
+            "placeholder": "Fonction",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Obligatoire",
+            "className": undefined,
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Obligatoire",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "inputValue": [Function],
+            "placeholder": "Numéro de téléphone",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Obligatoire",
+            "className": undefined,
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Obligatoire",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Format de numéro erroné",
+            "className": "undefined undefined",
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Format de numéro erroné",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "selectedOption": [Function],
+            "setOptions": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Obligatoire",
+            "className": "undefined undefined",
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Obligatoire",
+          "type": "p",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Array [],
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Testing FormModal component renders as expected with parameters (as open) 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FormModal
+    isOpen={true}
+    setClick={[Function]}
+    title="Title"
+    toggle={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "ModalFooterContent": [Function],
+      "children": Array [
+        <InputElement
+          inputValue={[Function]}
+          placeholder="Prénom"
+/>,
+        <p
+          className={undefined}
+          hidden={true}
+>
+          Obligatoire
+</p>,
+        <InputElement
+          inputValue={[Function]}
+          placeholder="Nom"
+/>,
+        <p
+          className={undefined}
+          hidden={true}
+>
+          Obligatoire
+</p>,
+        <InputElement
+          inputValue={[Function]}
+          placeholder="Adresse e-mail"
+/>,
+        <p
+          className={undefined}
+          hidden={true}
+>
+          Obligatoire
+</p>,
+        <p
+          className="undefined undefined"
+          hidden={true}
+>
+          Le format de l'adresse email n'est pas valide.
+</p>,
+        <InputElement
+          inputValue={[Function]}
+          placeholder="Fonction"
+/>,
+        <p
+          className={undefined}
+          hidden={true}
+>
+          Obligatoire
+</p>,
+        <InputElement
+          inputValue={[Function]}
+          placeholder="Numéro de téléphone"
+/>,
+        <p
+          className={undefined}
+          hidden={true}
+>
+          Obligatoire
+</p>,
+        <p
+          className="undefined undefined"
+          hidden={true}
+>
+          Format de numéro erroné
+</p>,
+        <SelectElement
+          selectedOption={[Function]}
+          setOptions={undefined}
+/>,
+        <p
+          className="undefined undefined"
+          hidden={true}
+>
+          Obligatoire
+</p>,
+      ],
+      "className": "FormModal undefined",
+      "isOpen": true,
+      "setClick": [Function],
+      "title": "Title",
+      "toggle": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "inputValue": [Function],
+          "placeholder": "Prénom",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Obligatoire",
+          "className": undefined,
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Obligatoire",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "inputValue": [Function],
+          "placeholder": "Nom",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Obligatoire",
+          "className": undefined,
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Obligatoire",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "inputValue": [Function],
+          "placeholder": "Adresse e-mail",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Obligatoire",
+          "className": undefined,
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Obligatoire",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Le format de l'adresse email n'est pas valide.",
+          "className": "undefined undefined",
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Le format de l'adresse email n'est pas valide.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "inputValue": [Function],
+          "placeholder": "Fonction",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Obligatoire",
+          "className": undefined,
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Obligatoire",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "inputValue": [Function],
+          "placeholder": "Numéro de téléphone",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Obligatoire",
+          "className": undefined,
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Obligatoire",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Format de numéro erroné",
+          "className": "undefined undefined",
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Format de numéro erroné",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "selectedOption": [Function],
+          "setOptions": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Obligatoire",
+          "className": "undefined undefined",
+          "hidden": true,
+        },
+        "ref": null,
+        "rendered": "Obligatoire",
+        "type": "p",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "ModalFooterContent": [Function],
+        "children": Array [
+          <InputElement
+            inputValue={[Function]}
+            placeholder="Prénom"
+/>,
+          <p
+            className={undefined}
+            hidden={true}
+>
+            Obligatoire
+</p>,
+          <InputElement
+            inputValue={[Function]}
+            placeholder="Nom"
+/>,
+          <p
+            className={undefined}
+            hidden={true}
+>
+            Obligatoire
+</p>,
+          <InputElement
+            inputValue={[Function]}
+            placeholder="Adresse e-mail"
+/>,
+          <p
+            className={undefined}
+            hidden={true}
+>
+            Obligatoire
+</p>,
+          <p
+            className="undefined undefined"
+            hidden={true}
+>
+            Le format de l'adresse email n'est pas valide.
+</p>,
+          <InputElement
+            inputValue={[Function]}
+            placeholder="Fonction"
+/>,
+          <p
+            className={undefined}
+            hidden={true}
+>
+            Obligatoire
+</p>,
+          <InputElement
+            inputValue={[Function]}
+            placeholder="Numéro de téléphone"
+/>,
+          <p
+            className={undefined}
+            hidden={true}
+>
+            Obligatoire
+</p>,
+          <p
+            className="undefined undefined"
+            hidden={true}
+>
+            Format de numéro erroné
+</p>,
+          <SelectElement
+            selectedOption={[Function]}
+            setOptions={undefined}
+/>,
+          <p
+            className="undefined undefined"
+            hidden={true}
+>
+            Obligatoire
+</p>,
+        ],
+        "className": "FormModal undefined",
+        "isOpen": true,
+        "setClick": [Function],
+        "title": "Title",
+        "toggle": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "inputValue": [Function],
+            "placeholder": "Prénom",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Obligatoire",
+            "className": undefined,
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Obligatoire",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "inputValue": [Function],
+            "placeholder": "Nom",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Obligatoire",
+            "className": undefined,
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Obligatoire",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "inputValue": [Function],
+            "placeholder": "Adresse e-mail",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Obligatoire",
+            "className": undefined,
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Obligatoire",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Le format de l'adresse email n'est pas valide.",
+            "className": "undefined undefined",
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Le format de l'adresse email n'est pas valide.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "inputValue": [Function],
+            "placeholder": "Fonction",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Obligatoire",
+            "className": undefined,
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Obligatoire",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "inputValue": [Function],
+            "placeholder": "Numéro de téléphone",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Obligatoire",
+            "className": undefined,
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Obligatoire",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Format de numéro erroné",
+            "className": "undefined undefined",
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Format de numéro erroné",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "selectedOption": [Function],
+            "setOptions": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Obligatoire",
+            "className": "undefined undefined",
+            "hidden": true,
+          },
+          "ref": null,
+          "rendered": "Obligatoire",
+          "type": "p",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Array [],
+  Symbol(enzyme.__childContext__): null,
+}
+`;

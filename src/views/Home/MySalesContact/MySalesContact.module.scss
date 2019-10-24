@@ -1,0 +1,32 @@
+.DashboardBox {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.12);
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.Box5 {
+  height: 100%;
+  margin-top: 1px;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: flex-end;
+  h4 {
+    font-size: 15px;
+    color: #1F2B3D;
+    letter-spacing: 0.58px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    display: block;
+  }
+  span {
+    color: #757575;
+    letter-spacing: 0.26px;
+    font-size: 13px;
+    text-align: left;
+    display: block;
+  }
+}

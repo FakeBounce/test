@@ -1,0 +1,311 @@
+.ModalContent {
+  > div {
+    border-radius: 2px;
+    padding: 30px;
+    .ModalHeader {
+      border-bottom: 0;
+      > h5 {
+        color: #1F2B3D;
+        font-size: 16px;
+        letter-spacing: 1.17px;
+        text-transform: uppercase;
+      }
+      > button {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+      }
+    }
+  }
+  &:global(.Red) {
+    .ModalHeader {
+      > h5 {
+        color: #E41818;
+      }
+    }
+  }
+}
+
+div {
+  &:global(.FormModal) {
+    div {
+      &:global(.modal-body) {
+        padding: 0;
+        overflow: hidden;
+        margin: 15px;
+        > div {
+          margin-bottom: 15px;
+          input, select {
+            &::placeholder {
+              color: #9E9E9E;
+            }
+            border: 0;
+            font-size: 14px;
+            color: #9E9E9E;
+            border-radius: 2px;
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
+          }
+        }
+      }
+      &:global(.modal-footer) {
+        border-top: 0;
+        button {
+          border-radius: 2px;
+          border-color: #5696FF;
+          font-size: 14px;
+          letter-spacing: 1px;
+          color: #FFFFFF;
+          background-color: #5696FF;
+          text-transform: uppercase;
+          &:global(.btn.btn-primary) {
+            &:focus, &:active, &:hover {
+              border-color: #5696FF;
+              background-color: #5696FF;
+              box-shadow: none;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+div {
+  &:global(.ConfirmModal) {
+    div {
+      &:global(.modal-content) {
+        padding-bottom: 0;
+        padding-right: 0;
+        div {
+          &:global(.modal-body) {
+            div {
+              color: #9E9E9E;
+              font-size: 14px;
+              line-height: 17px;
+            }
+          }
+          &:global(.modal-footer) {
+            border-top: 0;
+            button {
+              border-radius: 2px;
+              font-size: 14px;
+              letter-spacing: 1px;
+              text-transform: uppercase;
+              &:global(.btn.btn-primary) {
+                border-color: #5696FF;
+                color: #fff;
+                background-color: #5696FF;
+                &:focus, &:active, &:hover {
+                  border-color: #5696FF;
+                  color: #fff;
+                  background-color: #5696FF;
+                  box-shadow: none;
+                }
+              }
+              &:global(.btn.btn-secondary) {
+                color: #4F5561;
+                background-color: #fff;
+                border-color: #4F5561;
+                &:focus, &:active, &:hover {
+                  color: #4F5561;
+                  background-color: #fff;
+                  border-color: #4F5561;
+                  box-shadow: none;
+                }
+              }
+              &:global(.btn.btn-danger) {
+                color: #fff;
+                background-color: #E41818;
+                border-color: #E41818;
+                &:focus, &:active, &:hover {
+                  color: #fff;
+                  background-color: #E41818;
+                  border-color: #E41818;
+                  box-shadow: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+div {
+  &:global(.InformationModal) {
+    div {
+      &:global(.modal-content) {
+        div {
+          &:global(.modal-body) {
+            div {
+              display: flex;
+              justify-content: center;
+              img {
+                width: 27px;
+                height: 20px;
+              }
+            }
+          }
+        }
+      }
+      &:global(.modal-footer) {
+        border-top: 0;
+      }
+    }
+  }
+}
+
+div {
+  &:global(.NewFolderModal) {
+    div {
+      &:global(.modal-content) {
+        padding-bottom: 0;
+        padding-right: 0;
+        div {
+          &:global(.modal-body) {
+            padding: 0;
+            overflow: hidden;
+            margin: 15px;
+            > div {
+              margin-bottom: 15px;
+              input {
+                &::placeholder {
+                  color: #9E9E9E;
+                }
+                border: 0;
+                font-size: 14px;
+                color: #9E9E9E;
+                border-radius: 2px;
+                box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
+              }
+            }
+          }
+        }
+      }
+      &:global(.modal-footer) {
+        border-top: 0;
+        button {
+          border-radius: 2px;
+          font-size: 14px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          &:global(.btn.btn-primary) {
+            border-color: #5696FF;
+            color: #fff;
+            background-color: #5696FF;
+            margin-right: 5px;
+            &:focus, &:active, &:hover {
+              border-color: #5696FF;
+              color: #fff;
+              background-color: #5696FF;
+              box-shadow: none;
+            }
+          }
+          &:global(.btn.btn-secondary) {
+            color: #4F5561;
+            background-color: #fff;
+            border-color: #4F5561;
+            &:focus, &:active, &:hover {
+              color: #4F5561;
+              background-color: #fff;
+              border-color: #4F5561;
+              box-shadow: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+div {
+  &:global(.NewFileModal) {
+    div {
+      &:global(.modal-content) {
+        padding-bottom: 0;
+        padding-right: 0;
+        div {
+          &:global(.modal-body) {
+            padding: 0;
+            overflow: hidden;
+            margin: 15px;
+            padding-right: 20px;
+            > div {
+              margin-bottom: 15px;
+              &:global(.dropzone) {
+                padding: 10px;
+                margin-right: 20px;
+                width: 100%;
+                min-height: 200px;
+                border: 2px dashed #9E9E9E;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                overflow: hidden;
+                > div {
+                  img {
+                    display: none;
+                  }
+                }
+                p {
+                  text-align: center;
+                  width: 350px;
+                  color: #9E9E9E;
+                  margin-bottom: 0;
+                }
+              }
+              input {
+                &::placeholder {
+                  color: #9E9E9E;
+                }
+                border: 0;
+                font-size: 14px;
+                color: #9E9E9E;
+                border-radius: 2px;
+                box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
+              }
+            }
+          }
+        }
+      }
+      &:global(.modal-footer) {
+        border-top: 0;
+        button {
+          border-radius: 2px;
+          font-size: 14px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          &:global(.btn.btn-primary) {
+            border-color: #5696FF;
+            color: #fff;
+            background-color: #5696FF;
+            margin-right: 5px;
+            &:focus, &:active, &:hover {
+              border-color: #5696FF;
+              color: #fff;
+              background-color: #5696FF;
+              box-shadow: none;
+            }
+          }
+          &:global(.btn.btn-secondary) {
+            color: #4F5561;
+            background-color: #fff;
+            border-color: #4F5561;
+            &:focus, &:active, &:hover {
+              color: #4F5561;
+              background-color: #fff;
+              border-color: #4F5561;
+              box-shadow: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+

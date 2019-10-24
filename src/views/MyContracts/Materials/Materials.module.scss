@@ -1,0 +1,11 @@
+.MaterialsContainer {
+  height: calc(100vh - 245px);
+  overflow: auto;
+  overflow-x:hidden
+}
+
+.ElementsCount {
+  display: block;
+  text-align: left;
+  margin-left: 5px;
+}

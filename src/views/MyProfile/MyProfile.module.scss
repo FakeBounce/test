@@ -1,0 +1,77 @@
+.MyProfile {
+  .AvatarSection {
+    display: flex;
+    margin-bottom: 30px;
+    .Avatar {
+      height: 100px;
+      width: 100px;
+      background-color: #91C33F;
+      border-radius: 50%;
+      position: relative;
+      &:hover {
+        cursor: pointer;
+      }
+      h4 {
+        line-height: 105px;
+        margin-bottom: 0;
+        font-size: 33px;
+        color: #FFFFFF;
+        letter-spacing: 1.65px;
+      }
+      &:after {
+        content: '';
+        background: url("assets/images/BTN_+.png");
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        right: 5px;
+        bottom: 10px;
+      }
+    }
+    .UserInfo {
+      margin-left: 30px;
+      display: flex;
+      text-align: left;
+      flex-direction: column;
+      justify-content: center;
+      h4 {
+        color: #1F2B3E;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 5px;
+      }
+      span {
+        font-size: 14px;
+        color: #4F5561;
+        font-weight: 300;
+      }
+    }
+  }
+  .TabsSection {
+    ul {
+      &:global(.nav-tabs) {
+        border: 0;
+        background-color: #FFFFFF;
+        margin-bottom: 20px;
+        li {
+          a {
+            border: 0;
+            font-size: 12px;
+            color: #1F2B3E;
+            opacity: 0.5;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            &:hover {
+              cursor: pointer;
+            }
+            &:global(.active) {
+              opacity: 1;
+              border-bottom: 1px solid #5696FF;
+            }
+          }
+        }
+      }
+    }
+  }
+}

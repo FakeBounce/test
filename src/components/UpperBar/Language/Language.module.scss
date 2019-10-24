@@ -1,0 +1,38 @@
+@import '~common/styles/variables';
+
+.LanguagesContainer {
+  order: 5;
+  width: 50px;
+}
+
+.LanguageDropdown > span {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: $marine-blue;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.LanguageDropdown > div {
+  margin-top: 0;
+  border-radius: 0;
+  width: 52px;
+  min-width: initial;
+  margin-left: -1px;
+  z-index: -1;
+  border-top: 0;
+}
+
+.LanguageDropdown > div > button {
+  padding: 2px 5px;
+  font-size: 12px;
+  color: $marine-blue;
+  text-align: center;
+  &:hover {
+    cursor: pointer;
+  }
+}
