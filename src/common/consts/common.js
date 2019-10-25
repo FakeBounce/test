@@ -7,4 +7,4 @@ export const LOAD_STATES = {
 };
 
 // export const TRACKING_ID = 'UA-32388359-6';// PROD Sandy
-// export const TRACKING_ID = 'UA-143269895-1';// Dev dev.paprec@gmail.com
+export const TRACKING_ID = 'UA-143269895-1';// Dev dev.paprec@gmail.com

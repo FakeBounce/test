@@ -56,7 +56,7 @@ class Home extends Component {
     this.monthlyWeight = await this.getMonthlyRemovalWeight();
     this.annualWeight = await this.getStatsPaprec();
     this.contracts = await CollectiviteContractService.getCollectiviteConctracts();
-    if (this.contracts[0] && this.contracts[0].contratId) {
+    if (this.contracts && this.contracts[0] && this.contracts[0].contratId) {
       this.contacts = await CollectiviteContractContactService.getContacts(
         this.contracts[0].contratId
       );

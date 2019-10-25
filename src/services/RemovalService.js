@@ -13,11 +13,15 @@ class RemovalService {
   async getRemovals(params) {
     const response = await ApiMiddleware.postData(ANCHOR.REMOVAL, params);
     const removals = [];
-    const page = response.body.page;
-    response.body.data.forEach(item => {
-      const removal = new RemovalModel(item.date, item.lieu, item.qualite, item.poids);
-      removals.push(removal);
-    });
+    let page = null;
+    if(response && response.body)
+    {
+      page = response.body.page;
+      response.body.data.forEach(item => {
+        const removal = new RemovalModel(item.date, item.lieu, item.qualite, item.poids);
+        removals.push(removal);
+      });
+    }
     return {removals, page};
   }
 }

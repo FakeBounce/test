@@ -6,19 +6,22 @@ class CollectiviteAddressService {
   async getCurrentCollectiviteAddresses() {
     const response = await ApiMiddleware.getData(ANCHOR.COLLECTIVITE_ADDRESS);
     const addresses = [];
-    response.body.forEach(address => {
-      const {
-        id,
-        typeAdresseCode: type,
-        adresse1: address_1,
-        adresse2: address_2,
-        codePostal: postalCode,
-        localite: city
-      } = address;
-      addresses.push(
-        new AddressModel(id, type, address_1, address_2, postalCode, city)
-      );
-    });
+    if(response && response.body)
+    {
+      response.body.forEach(address => {
+        const {
+          id,
+          typeAdresseCode: type,
+          adresse1: address_1,
+          adresse2: address_2,
+          codePostal: postalCode,
+          localite: city
+        } = address;
+        addresses.push(
+            new AddressModel(id, type, address_1, address_2, postalCode, city)
+        );
+      });
+    }
     return addresses;
   }
 

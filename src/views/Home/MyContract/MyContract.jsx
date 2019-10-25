@@ -14,16 +14,19 @@ class MyContract extends Component {
   async componentDidMount() {
     const contractsAddresses = [];
     CollectiviteContractService.getCollectiviteConctracts().then(contracts => {
-      contracts.map(async contract => {
-        const contratAddress = await ContractService.getContractAddress(
-          contract.contratId
-        );
-        contractsAddresses.push(contratAddress);
-      });
-      this.setState(state => ({
-        ...state,
-        contractsAddresses
-      }));
+      if(contracts)
+      {
+        contracts.map(async contract => {
+          const contratAddress = await ContractService.getContractAddress(
+              contract.contratId
+          );
+          contractsAddresses.push(contratAddress);
+        });
+        this.setState(state => ({
+          ...state,
+          contractsAddresses
+        }));
+      }
     });
   }
 
