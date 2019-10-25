@@ -258,6 +258,7 @@ class FileList extends Component {
 
             {selectedItemOption === index && (
               <div className={styles.FileOptionsModal}>
+                <div  className={styles.optionModalContainer}>
                 <div
                   className={styles.FileOptionsListItem}
                   onClick={() => {
@@ -265,7 +266,9 @@ class FileList extends Component {
                     this.showItemOptions(-1)();
                   }}
                 >
-                  <Media src={Dl} /> <span>Télécharger</span>
+                  <div className={styles.FileOptionsListItemContainer}>
+                    <Media src={Dl} /> <span>Télécharger</span>
+                  </div>
                 </div>
                 <div
                   className={styles.FileOptionsListItem}
@@ -273,14 +276,18 @@ class FileList extends Component {
                     index
                   )}
                 >
-                  <Media src={Info} /> <span>Afficher les détails</span>
+                  <div className={styles.FileOptionsListItemContainer}>
+                    <Media src={Info} /> <span>Afficher les détails</span>
+                  </div>
                 </div>
                 {this.checkType(element) === Folder && (
                   <div
                     className={styles.FileOptionsListItem}
                     onClick={this.renameFolderButtonClickAndToggleOption(index)}
                   >
-                    <Media src={Edit} /> <span>Renommer</span>
+                    <div className={styles.FileOptionsListItemContainer}>
+                      <Media src={Edit} /> <span>Renommer</span>
+                    </div>
                   </div>
                 )}
                 {/*<div*/}
@@ -293,7 +300,10 @@ class FileList extends Component {
                   className={styles.FileOptionsListItem}
                   onClick={this.deleteElementAndToggleOption(element, index)}
                 >
-                  <Media src={Delete} /> <span>Supprimer</span>
+                  <div className={styles.FileOptionsListItemContainer}>
+                   <Media src={Delete} /> <span>Supprimer</span>
+                  </div>
+                </div>
                 </div>
               </div>
             )}
