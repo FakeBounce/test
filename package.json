@@ -91,7 +91,7 @@
     "webpack-dev-server": "3.8.0",
     "webpack-manifest-plugin": "2.0.4",
     "whatwg-fetch": "2.0.3",
-    "xlsx": "^0.15.1"
+    "xlsx": "^0.17.0"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",
